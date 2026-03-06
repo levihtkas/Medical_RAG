@@ -11,7 +11,7 @@ from src.generator import Generator
 import sys
 
 class PipelineEvaluator:
-    def __init__(self, dataset_path: str, generator_function, chunks, collection_name: str = "medical_data_collection", top_k: int = 25):
+    def __init__(self, dataset_path: str, generator_function, chunks, collection_name: str = "medical_data_collection", top_k: int = Config.RETRIEVAL_TOP_K):
         # 1. Store configuration and dependencies
         self.dataset_path = dataset_path
         self.generator_function = generator_function
@@ -20,7 +20,7 @@ class PipelineEvaluator:
         self.top_k = top_k
         
         # 2. Initialize the Grader LLMs
-        self.grader_llm = ChatOpenAI(model="gpt-4o", temperature=0)
+        self.grader_llm = ChatOpenAI(model=Config.GRADER_MODEL, temperature=0)
         self.grader_embeddings = OpenAIEmbeddings(model=Config.EMBEDDING_MODEL)  # Use the same embedding model for consistency
         
         # 3. Define the metrics to track
@@ -39,7 +39,7 @@ class PipelineEvaluator:
         }
         
         print(f"Generating answers for {len(golden_data)} test cases...")
-        for item in golden_data:
+        for item in golden_data[: Config.EVAL_MAX_QUESTIONS]:
             query = item["question"]
 
             # Call the dynamically passed generator function
@@ -92,7 +92,7 @@ if __name__ == "__main__":
         dataset_path="./data/golden_dataset.json",
         generator_function=my_generator.hybrid_reteriver_rerank,
         chunks=chunks,
-        top_k=25 # Remember, we discussed lowering this to 5 to boost answer_relevancy!
+        top_k=Config.RETRIEVAL_TOP_K
     )
     
     results_df = evaluator.run_evaluation()
