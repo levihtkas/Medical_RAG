@@ -30,7 +30,12 @@ jobs:
       - name: Ingest Test Data (Vector DB & BM25)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          VECTOR_STORE_PATH: ./data/vector_store
+          EMBEDDING_CACHE_PATH: ./data/embedding_cache.json
+          COLLECTION_NAME: medical_data_collection
         run: |
+          mkdir -p data/vector_store
+          touch data/embedding_cache.json
           python -m src.ingest_db
 
       - name: Run evaluation script
