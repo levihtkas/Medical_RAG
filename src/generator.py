@@ -23,7 +23,7 @@ class Generator:
         """
 
         response = open_ai_client.chat.completions.create(
-            model="gpt-5-mini",
+            model=Config.LLM_MODEL,
             messages=[
                 {"role": "system", "content": Config.system_prompt},
                 {"role": "user", "content": prompt}
@@ -32,7 +32,7 @@ class Generator:
 
         return response.choices[0].message.content
     
-    def hybrid_reteriver_rerank(self,query:str, chunks:List[Chunk], collection_name:str = "medical_data_collection", top_k:int = 5):
+    def hybrid_reteriver_rerank(self,query:str, chunks:List[Chunk], collection_name:str = Config.collection_name, top_k:int = Config.RETRIEVAL_TOP_K):
         # query = query_llm_rewrite(query)
         rrf_results= self.reteriver.hybrid_reteriver_rrf(query=query, chunks=chunks, collection_name=collection_name, top_k=top_k)
         # Reranking using cross-encoder
