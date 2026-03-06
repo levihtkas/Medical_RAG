@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What is the dosage and duration for the Empagliflozin prescription for Rina Shah?",
+    "context": "Patient id: PT-260301-9427, Patient name: Rina Shah, Medication Name: Empagliflozin, Date of Prescription: 2026-02-10, Dosage: 10 mg, Frequency: Once daily, Duration: 90 days (ongoing, 2 refills)",
+    "ground_truth": "The dosage for Empagliflozin is 10 mg, and the duration is 90 days (ongoing, 2 refills)."
+  },
+  {
+    "question": "What were the doctor's comments regarding Anika Patel's Fasting Lipid Profile on 2026-02-25?",
+    "context": "Patient id: PT-260228-8391, Patient name: Anika Patel, Test Name: Fasting Lipid Profile, Date of Test: 2026-02-25, Result: Total cholesterol 248 mg/dL; LDL 142 mg/dL; HDL 38 mg/dL; Triglycerides 190 mg/dL, Normal Range: Total <200 mg/dL; LDL <100 mg/dL; HDL >40 mg/dL; Triglycerides <150 mg/dL, Doctor Comments: Atherogenic lipid profile. Initiated atorvastatin 20 mg nightly. Counsel on diet, weight reduction, and exercise. Repeat fasting lipid panel in 6 weeks to assess response and adherence.",
+    "ground_truth": "The doctor noted an atherogenic lipid profile and initiated atorvastatin 20 mg nightly. They counseled on diet, weight reduction, and exercise, and recommended repeating the fasting lipid panel in 6 weeks."
+  },
+  {
+    "question": "List all the medications prescribed to Siddharth Bose on 2026-02-15.",
+    "context": "Patient id: PT-270915-4301, Patient name: Siddharth Bose, Medication Name: Metformin XR, Date of Prescription: 2026-02-15, Dosage: 1000 mg, Frequency: twice daily, Duration: ongoing \n Patient id: PT-270915-4301, Patient name: Siddharth Bose, Medication Name: Tirzepatide, Date of Prescription: 2026-02-15, Dosage: 5 mg, Frequency: once weekly, Duration: 12 weeks (review and up-titrate as needed) \n Patient id: PT-270915-4301, Patient name: Siddharth Bose, Medication Name: Telmisartan, Date of Prescription: 2026-02-15, Dosage: 40 mg, Frequency: once daily, Duration: ongoing \n Patient id: PT-270915-4301, Patient name: Siddharth Bose, Medication Name: Atorvastatin, Date of Prescription: 2026-02-15, Dosage: 20 mg, Frequency: once nightly, Duration: ongoing",
+    "ground_truth": "On 2026-02-15, Siddharth Bose was prescribed Metformin XR, Tirzepatide, Telmisartan, and Atorvastatin."
+  },
+  {
+    "question": "Does Rahul Mehra have microalbuminuria, and if so, what is the exact UACR result?",
+    "context": "Patient id: PT-260301-9001, Patient name: Rahul Mehra, Test Name: Urine Albumin-to-Creatinine Ratio (UACR), Date of Test: 2026-02-14, Result: UACR 45 mg/g (microalbuminuria), Normal Range: <30 mg/g, Doctor Comments: Microalbuminuria detected, consistent with early diabetic nephropathy. ACE inhibitor (ramipril) initiation appropriate; optimize blood pressure and glycaemic control. Repeat UACR in 3 months to assess response.",
+    "ground_truth": "Yes, Rahul Mehra has microalbuminuria detected. His exact UACR result is 45 mg/g."
+  },
+  {
+    "question": "What was the HbA1c result for Mitali Deshmukh on 2026-02-14, and what was the doctor's primary recommendation regarding lifestyle?",
+    "context": "Patient id: PT-271015-3342, Patient name: Mitali Deshmukh, Test Name: HbA1c, Date of Test: 2026-02-14, Result: 7.6%, Normal Range: < 5.7% (non-diabetic); Target for many adults with diabetes: 6.5\u20137.0% (individualize), Doctor Comments: Above target. Intensify lifestyle measures and optimize antihyperglycemic therapy. Consider dose titration of metformin if tolerated and reinforce adherence. Repeat HbA1c in 3 months after medication adjustments.",
+    "ground_truth": "The HbA1c result was 7.6%. The doctor's primary recommendation was to intensify lifestyle measures and optimize antihyperglycemic therapy."
+  }
+]
