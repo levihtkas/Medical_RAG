@@ -1,0 +1,611 @@
+[
+  {
+    "id": "PT-260228-8391_6a9ae40e71e0b58b",
+    "patient_name": "Anika Patel",
+    "patient_id": "PT-260228-8391",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260228-8391, Patient name: Anika Patel, Medication Name: Metformin XR, Date of Prescription: 2026-02-20, Dosage: 500 mg, Frequency: Twice daily (with breakfast and dinner), Duration: 6 months"
+  },
+  {
+    "id": "PT-260228-8391_76e98c3d0ab1139a",
+    "patient_name": "Anika Patel",
+    "patient_id": "PT-260228-8391",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260228-8391, Patient name: Anika Patel, Medication Name: Lisinopril, Date of Prescription: 2026-02-20, Dosage: 10 mg, Frequency: Once daily (morning), Duration: 3 months"
+  },
+  {
+    "id": "PT-260228-8391_c7bef1f9f84c1053",
+    "patient_name": "Anika Patel",
+    "patient_id": "PT-260228-8391",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260228-8391, Patient name: Anika Patel, Medication Name: Atorvastatin, Date of Prescription: 2026-02-20, Dosage: 20 mg, Frequency: Once nightly, Duration: Indefinite (reassess in 6 weeks)"
+  },
+  {
+    "id": "PT-260228-8391_e1c77202ab9d8ad2",
+    "patient_name": "Anika Patel",
+    "patient_id": "PT-260228-8391",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260228-8391, Patient name: Anika Patel, Test Name: Hemoglobin A1c, Date of Test: 2026-02-25, Result: 7.4%, Normal Range: 4.0 - 5.6 %, Doctor Comments: Elevated A1c consistent with suboptimal glycemic control. Recommend intensifying lifestyle measures, increase metformin XR to 1000 mg twice daily if tolerated, provide diabetes education, and reassess A1c in 3 months. Consider endocrinology referral if no improvement."
+  },
+  {
+    "id": "PT-260228-8391_6937a128043b6d2a",
+    "patient_name": "Anika Patel",
+    "patient_id": "PT-260228-8391",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260228-8391, Patient name: Anika Patel, Test Name: Fasting Lipid Profile, Date of Test: 2026-02-25, Result: Total cholesterol 248 mg/dL; LDL 142 mg/dL; HDL 38 mg/dL; Triglycerides 190 mg/dL, Normal Range: Total <200 mg/dL; LDL <100 mg/dL; HDL >40 mg/dL; Triglycerides <150 mg/dL, Doctor Comments: Atherogenic lipid profile. Initiated atorvastatin 20 mg nightly. Counsel on diet, weight reduction, and exercise. Repeat fasting lipid panel in 6 weeks to assess response and adherence."
+  },
+  {
+    "id": "PT-260228-8391_07a022ebecb6e2f6",
+    "patient_name": "Anika Patel",
+    "patient_id": "PT-260228-8391",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260228-8391, Patient name: Anika Patel, Test Name: Basic Metabolic Panel (BMP), Date of Test: 2026-02-25, Result: Sodium 139 mmol/L; Potassium 4.2 mmol/L; Creatinine 1.03 mg/dL; eGFR 78 mL/min/1.73m2; Glucose (fasting) 142 mg/dL, Normal Range: Creatinine 0.6 - 1.2 mg/dL; eGFR >60 mL/min/1.73m2; Sodium 135-145 mmol/L; Potassium 3.5-5.1 mmol/L, Doctor Comments: Renal function stable (eGFR 78). Safe to uptitrate metformin per plan but monitor creatinine and eGFR in 3 months or sooner if symptoms. Address fasting hyperglycemia with medication adjustment and lifestyle counseling."
+  },
+  {
+    "id": "PT-260301-9427_fe0e5a2a6880ade3",
+    "patient_name": "Rina Shah",
+    "patient_id": "PT-260301-9427",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260301-9427, Patient name: Rina Shah, Medication Name: Empagliflozin, Date of Prescription: 2026-02-10, Dosage: 10 mg, Frequency: Once daily, Duration: 90 days (ongoing, 2 refills)"
+  },
+  {
+    "id": "PT-260301-9427_ae18b46750dfadc9",
+    "patient_name": "Rina Shah",
+    "patient_id": "PT-260301-9427",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260301-9427, Patient name: Rina Shah, Medication Name: Ramipril, Date of Prescription: 2026-02-10, Dosage: 5 mg, Frequency: Once daily, Duration: 60 days (evaluate BP and renal function before next refill)"
+  },
+  {
+    "id": "PT-260301-9427_0ee23099c5563002",
+    "patient_name": "Rina Shah",
+    "patient_id": "PT-260301-9427",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260301-9427, Patient name: Rina Shah, Medication Name: Rosuvastatin, Date of Prescription: 2026-02-10, Dosage: 10 mg, Frequency: Once nightly, Duration: 30 days (follow-up lipid panel in 6\u20138 weeks)"
+  },
+  {
+    "id": "PT-260301-9427_e23af6babb5f0b8e",
+    "patient_name": "Rina Shah",
+    "patient_id": "PT-260301-9427",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260301-9427, Patient name: Rina Shah, Test Name: Hemoglobin A1c, Date of Test: 2026-02-20, Result: 6.8%, Normal Range: 4.0 - 5.6%, Doctor Comments: Improvement in glycemic control since therapy adjustment. Continue empagliflozin, reinforce diet and exercise. Repeat A1c in 3 months; consider medication adjustment if not sustained."
+  },
+  {
+    "id": "PT-260301-9427_9729e5c375fc4da6",
+    "patient_name": "Rina Shah",
+    "patient_id": "PT-260301-9427",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260301-9427, Patient name: Rina Shah, Test Name: Lipid Panel, Date of Test: 2026-02-20, Result: Total Cholesterol 210 mg/dL; LDL 112 mg/dL; HDL 44 mg/dL; Triglycerides 160 mg/dL, Normal Range: Total <200 mg/dL; LDL <100 mg/dL (goal varies with risk); HDL >40 mg/dL (men) / >50 mg/dL (women); TG <150 mg/dL, Doctor Comments: LDL moderately elevated despite recent statin start. Optimize lifestyle; consider titrating rosuvastatin dose if tolerated and if risk profile warrants. Recheck lipid panel in 6\u20138 weeks after dose adjustment."
+  },
+  {
+    "id": "PT-260301-9427_d65697c912177040",
+    "patient_name": "Rina Shah",
+    "patient_id": "PT-260301-9427",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260301-9427, Patient name: Rina Shah, Test Name: Serum Creatinine / eGFR, Date of Test: 2026-02-20, Result: Creatinine 1.02 mg/dL; eGFR 82 mL/min/1.73m2, Normal Range: Creatinine 0.6 - 1.2 mg/dL; eGFR >60 mL/min/1.73m2, Doctor Comments: Renal function stable. Safe to continue empagliflozin with routine monitoring of creatinine/eGFR and electrolytes. Advise prompt review if symptomatic dehydration or intercurrent illness."
+  },
+  {
+    "id": "PT-260301-9001_6f4a51a28e4da118",
+    "patient_name": "Rahul Mehra",
+    "patient_id": "PT-260301-9001",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260301-9001, Patient name: Rahul Mehra, Medication Name: Glimepiride, Date of Prescription: 2026-02-15, Dosage: 2 mg, Frequency: Once daily (morning), Duration: 90 days"
+  },
+  {
+    "id": "PT-260301-9001_a169c385a28d791c",
+    "patient_name": "Rahul Mehra",
+    "patient_id": "PT-260301-9001",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260301-9001, Patient name: Rahul Mehra, Medication Name: Ramipril, Date of Prescription: 2026-02-15, Dosage: 5 mg, Frequency: Once daily, Duration: 90 days"
+  },
+  {
+    "id": "PT-260301-9001_fcb37695a498328c",
+    "patient_name": "Rahul Mehra",
+    "patient_id": "PT-260301-9001",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260301-9001, Patient name: Rahul Mehra, Medication Name: Atorvastatin, Date of Prescription: 2026-02-15, Dosage: 40 mg, Frequency: Once nightly, Duration: 90 days"
+  },
+  {
+    "id": "PT-260301-9001_fbc4291816c3c023",
+    "patient_name": "Rahul Mehra",
+    "patient_id": "PT-260301-9001",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260301-9001, Patient name: Rahul Mehra, Test Name: Hemoglobin A1c, Date of Test: 2026-02-14, Result: 8.1%, Normal Range: 4.0 - 5.6%, Doctor Comments: Elevated A1c indicating suboptimal glycaemic control. Recommend intensifying glycaemic management, reinforce dietary/lifestyle measures, consider adding or switching to an SGLT2 inhibitor or GLP-1 receptor agonist given cardiovascular risk profile. Repeat A1c in 3 months after treatment change."
+  },
+  {
+    "id": "PT-260301-9001_88b5561a556e940f",
+    "patient_name": "Rahul Mehra",
+    "patient_id": "PT-260301-9001",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260301-9001, Patient name: Rahul Mehra, Test Name: Lipid Panel, Date of Test: 2026-02-14, Result: Total Cholesterol 235 mg/dL; LDL 148 mg/dL; HDL 38 mg/dL; Triglycerides 210 mg/dL, Normal Range: LDL <100 mg/dL; HDL >40 mg/dL; Triglycerides <150 mg/dL, Doctor Comments: Atherogenic lipid profile with high LDL and triglycerides. Increase statin intensity (currently atorvastatin 40 mg nightly prescribed) and emphasize dietary modification and exercise. If LDL remains >70 mg/dL on high-intensity statin, consider adding ezetimibe. Recheck lipid panel in 8-12 weeks."
+  },
+  {
+    "id": "PT-260301-9001_0c21f144dde48434",
+    "patient_name": "Rahul Mehra",
+    "patient_id": "PT-260301-9001",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260301-9001, Patient name: Rahul Mehra, Test Name: Renal Function (Creatinine / eGFR), Date of Test: 2026-02-14, Result: Serum creatinine 1.18 mg/dL; eGFR 64 mL/min/1.73m2, Normal Range: Serum creatinine 0.6 - 1.2 mg/dL; eGFR >90 mL/min/1.73m2, Doctor Comments: Mildly reduced eGFR consistent with CKD stage 2-3a. Monitor renal function and electrolytes in 3 months after initiating/adjusting ACE inhibitor. Avoid nephrotoxic agents and adjust drug dosing as needed."
+  },
+  {
+    "id": "PT-260301-9001_d3bc42c543947854",
+    "patient_name": "Rahul Mehra",
+    "patient_id": "PT-260301-9001",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260301-9001, Patient name: Rahul Mehra, Test Name: Urine Albumin-to-Creatinine Ratio (UACR), Date of Test: 2026-02-14, Result: UACR 45 mg/g (microalbuminuria), Normal Range: <30 mg/g, Doctor Comments: Microalbuminuria detected, consistent with early diabetic nephropathy. ACE inhibitor (ramipril) initiation appropriate; optimize blood pressure and glycaemic control. Repeat UACR in 3 months to assess response."
+  },
+  {
+    "id": "PT-260302-9147_ed8ad7174e66c5f0",
+    "patient_name": "Meera Iyer",
+    "patient_id": "PT-260302-9147",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260302-9147, Patient name: Meera Iyer, Medication Name: Sitagliptin, Date of Prescription: 2026-02-15, Dosage: 100 mg, Frequency: Once daily (morning), Duration: Ongoing"
+  },
+  {
+    "id": "PT-260302-9147_82fa183d24d33373",
+    "patient_name": "Meera Iyer",
+    "patient_id": "PT-260302-9147",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260302-9147, Patient name: Meera Iyer, Medication Name: Amlodipine, Date of Prescription: 2026-02-15, Dosage: 5 mg, Frequency: Once daily, Duration: 6 months (review at next visit)"
+  },
+  {
+    "id": "PT-260302-9147_7bc9b38fd55cfad6",
+    "patient_name": "Meera Iyer",
+    "patient_id": "PT-260302-9147",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260302-9147, Patient name: Meera Iyer, Medication Name: Pravastatin, Date of Prescription: 2026-02-15, Dosage: 40 mg, Frequency: Once nightly, Duration: Ongoing (reassess lipids in 8\u201312 weeks)"
+  },
+  {
+    "id": "PT-260302-9147_3f64936fd4d1c40c",
+    "patient_name": "Meera Iyer",
+    "patient_id": "PT-260302-9147",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260302-9147, Patient name: Meera Iyer, Medication Name: Aspirin (low-dose), Date of Prescription: 2026-02-15, Dosage: 75 mg, Frequency: Once daily, Duration: Ongoing (cardiovascular risk prevention)"
+  },
+  {
+    "id": "PT-260302-9147_18a761fa902f9952",
+    "patient_name": "Meera Iyer",
+    "patient_id": "PT-260302-9147",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260302-9147, Patient name: Meera Iyer, Test Name: Hemoglobin A1c, Date of Test: 2026-02-22, Result: 7.1%, Normal Range: 4.0 - 5.6%, Doctor Comments: A1c above target (goal <7.0%). Continue current therapy with sitagliptin; reinforce diet/exercise and adherence. Consider intensification (add GLP-1 RA or basal insulin) if repeat A1c in 3 months remains >7.0%."
+  },
+  {
+    "id": "PT-260302-9147_31e8a127120093c3",
+    "patient_name": "Meera Iyer",
+    "patient_id": "PT-260302-9147",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260302-9147, Patient name: Meera Iyer, Test Name: Lipid Panel, Date of Test: 2026-02-22, Result: Total Cholesterol 210 mg/dL; LDL 128 mg/dL; HDL 44 mg/dL; Triglycerides 160 mg/dL, Normal Range: Total <200 mg/dL; LDL <100 mg/dL (desirable); HDL >50 mg/dL (female); TG <150 mg/dL, Doctor Comments: LDL moderately elevated for patient with diabetes. Pravastatin 40 mg started \u2014 reinforce adherence and lifestyle. Recheck lipid panel in 8\u201312 weeks; consider uptitration or switch to higher-potency statin if LDL remains >100 mg/dL."
+  },
+  {
+    "id": "PT-260302-9147_36e7e43b91ed278a",
+    "patient_name": "Meera Iyer",
+    "patient_id": "PT-260302-9147",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260302-9147, Patient name: Meera Iyer, Test Name: Serum Creatinine / eGFR, Date of Test: 2026-02-22, Result: Creatinine 0.95 mg/dL; eGFR 86 mL/min/1.73m2, Normal Range: Creatinine 0.6 - 1.2 mg/dL; eGFR >60 mL/min/1.73m2, Doctor Comments: Renal function within normal limits. Continue medications that require monitoring; repeat renal panel annually or sooner if clinically indicated."
+  },
+  {
+    "id": "PT-260302-9147_fbac2ac80396e33c",
+    "patient_name": "Meera Iyer",
+    "patient_id": "PT-260302-9147",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260302-9147, Patient name: Meera Iyer, Test Name: Urine Albumin-to-Creatinine Ratio (ACR), Date of Test: 2026-02-22, Result: ACR 48 mg/g (microalbuminuria), Normal Range: <30 mg/g, Doctor Comments: Microalbuminuria detected \u2014 early diabetic kidney involvement. Optimize blood pressure (target <130/80 if tolerated) and glycaemic control. Continue current BP regimen; consider ACEi/ARB if not contraindicated and discuss with patient. Repeat ACR in 3 months to confirm persistence."
+  },
+  {
+    "id": "PT-260302-4721_1c34645458118e6e",
+    "patient_name": "Naina Desai",
+    "patient_id": "PT-260302-4721",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260302-4721, Patient name: Naina Desai, Medication Name: Metformin, Date of Prescription: 2026-02-20, Dosage: 850 mg, Frequency: 2x daily, Duration: 6 months"
+  },
+  {
+    "id": "PT-260302-4721_3430f9ee195f7243",
+    "patient_name": "Naina Desai",
+    "patient_id": "PT-260302-4721",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260302-4721, Patient name: Naina Desai, Medication Name: Dapagliflozin, Date of Prescription: 2026-02-20, Dosage: 10 mg, Frequency: 1x daily, Duration: 6 months"
+  },
+  {
+    "id": "PT-260302-4721_bc7431f5efb7d1f6",
+    "patient_name": "Naina Desai",
+    "patient_id": "PT-260302-4721",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260302-4721, Patient name: Naina Desai, Medication Name: Losartan, Date of Prescription: 2026-02-20, Dosage: 50 mg, Frequency: 1x daily, Duration: Indefinite"
+  },
+  {
+    "id": "PT-260302-4721_f4f538d7a949996b",
+    "patient_name": "Naina Desai",
+    "patient_id": "PT-260302-4721",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260302-4721, Patient name: Naina Desai, Medication Name: Ezetimibe, Date of Prescription: 2026-02-20, Dosage: 10 mg, Frequency: 1x nightly, Duration: Indefinite"
+  },
+  {
+    "id": "PT-260302-4721_b7b0afe69f66cd23",
+    "patient_name": "Naina Desai",
+    "patient_id": "PT-260302-4721",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260302-4721, Patient name: Naina Desai, Test Name: Hemoglobin A1c, Date of Test: 2026-02-18, Result: 7.8%, Normal Range: 4.0 - 5.6%, Doctor Comments: Above target (goal <7% for most). Intensify glycemic measures: reinforce adherence to Metformin and consider escalation to GLP-1 RA if weight and cardiovascular risk considerations support. Repeat A1c in 3 months after treatment adjustments."
+  },
+  {
+    "id": "PT-260302-4721_721bd9880bcc5d1f",
+    "patient_name": "Naina Desai",
+    "patient_id": "PT-260302-4721",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260302-4721, Patient name: Naina Desai, Test Name: Fasting Lipid Panel, Date of Test: 2026-02-18, Result: LDL 142 mg/dL; HDL 46 mg/dL; Triglycerides 175 mg/dL; Total cholesterol 218 mg/dL, Normal Range: LDL <100 mg/dL; HDL >50 mg/dL (F); Triglycerides <150 mg/dL, Doctor Comments: Atherogenic profile with elevated LDL and TG. Patient started on ezetimibe in addition to lifestyle advice; consider statin initiation or intensification if not contraindicated. Reassess lipid panel in 6-8 weeks after therapy changes."
+  },
+  {
+    "id": "PT-260302-4721_6b6631bf6e1dffc2",
+    "patient_name": "Naina Desai",
+    "patient_id": "PT-260302-4721",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260302-4721, Patient name: Naina Desai, Test Name: Serum Creatinine & eGFR, Date of Test: 2026-02-18, Result: Creatinine 0.98 mg/dL; eGFR 76 mL/min/1.73m2, Normal Range: Creatinine 0.6 - 1.2 mg/dL; eGFR >=90 mL/min/1.73m2 considered normal, Doctor Comments: Renal function currently stable and acceptable for SGLT2 inhibitor use; continue monitoring every 3-6 months or sooner if clinically indicated."
+  },
+  {
+    "id": "PT-260302-4721_f10895ef4c548b65",
+    "patient_name": "Naina Desai",
+    "patient_id": "PT-260302-4721",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260302-4721, Patient name: Naina Desai, Test Name: Urine Albumin-Creatinine Ratio (UACR), Date of Test: 2026-02-18, Result: UACR 32 mg/g (microalbuminuria), Normal Range: <30 mg/g, Doctor Comments: Microalbuminuria detected. Optimize blood pressure with ACEi/ARB (Losartan already prescribed) and reinforce glycemic control. Repeat UACR in 3 months and consider nephrology referral if persistent or progressive."
+  },
+  {
+    "id": "PT-260528-3147_ec677630e0917cb9",
+    "patient_name": "Sanjay Kulkarni",
+    "patient_id": "PT-260528-3147",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260528-3147, Patient name: Sanjay Kulkarni, Medication Name: Insulin degludec (Tresiba), Date of Prescription: 2026-02-20, Dosage: 10 units, Frequency: Once nightly, Duration: Indefinite (basal insulin)"
+  },
+  {
+    "id": "PT-260528-3147_3f8dbf6ef1d4517b",
+    "patient_name": "Sanjay Kulkarni",
+    "patient_id": "PT-260528-3147",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260528-3147, Patient name: Sanjay Kulkarni, Medication Name: Metformin XR, Date of Prescription: 2026-02-20, Dosage: 1000 mg, Frequency: Twice daily, Duration: 6 months"
+  },
+  {
+    "id": "PT-260528-3147_04c5e694e9463c01",
+    "patient_name": "Sanjay Kulkarni",
+    "patient_id": "PT-260528-3147",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260528-3147, Patient name: Sanjay Kulkarni, Medication Name: Amlodipine, Date of Prescription: 2026-02-20, Dosage: 5 mg, Frequency: Once daily, Duration: 3 months (review)"
+  },
+  {
+    "id": "PT-260528-3147_a0b8b79c18a03318",
+    "patient_name": "Sanjay Kulkarni",
+    "patient_id": "PT-260528-3147",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260528-3147, Patient name: Sanjay Kulkarni, Medication Name: Ezetimibe, Date of Prescription: 2026-02-20, Dosage: 10 mg, Frequency: Once nightly, Duration: 3 months (reassess LDL)"
+  },
+  {
+    "id": "PT-260528-3147_7c6b0693a677ab28",
+    "patient_name": "Sanjay Kulkarni",
+    "patient_id": "PT-260528-3147",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260528-3147, Patient name: Sanjay Kulkarni, Test Name: Hemoglobin A1c, Date of Test: 2026-02-18, Result: 8.3%, Normal Range: 4.0 - 5.6%, Doctor Comments: Elevated A1c indicating suboptimal glycemic control. Initiated basal insulin and optimized metformin. Reinforce diet and self-monitoring of blood glucose. Repeat A1c in 3 months; consider endocrinology referral if minimal improvement."
+  },
+  {
+    "id": "PT-260528-3147_cbc1bc7567bcb26f",
+    "patient_name": "Sanjay Kulkarni",
+    "patient_id": "PT-260528-3147",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260528-3147, Patient name: Sanjay Kulkarni, Test Name: Lipid Panel, Date of Test: 2026-02-18, Result: LDL 145 mg/dL; HDL 38 mg/dL; Triglycerides 210 mg/dL, Normal Range: LDL <100 mg/dL; HDL >40 mg/dL; TG <150 mg/dL, Doctor Comments: Atherogenic dyslipidemia. Started ezetimibe and provided lifestyle counseling. If LDL remains >100 on recheck in 6-8 weeks, consider intensifying lipid-lowering therapy (statin escalation or add-on therapy)."
+  },
+  {
+    "id": "PT-260528-3147_2e0b80a6329f7142",
+    "patient_name": "Sanjay Kulkarni",
+    "patient_id": "PT-260528-3147",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260528-3147, Patient name: Sanjay Kulkarni, Test Name: Serum Creatinine / eGFR, Date of Test: 2026-02-18, Result: Creatinine 1.10 mg/dL; eGFR 65 mL/min/1.73m2, Normal Range: Creatinine 0.6 - 1.2 mg/dL; eGFR >90 mL/min/1.73m2, Doctor Comments: Mildly reduced eGFR consistent with chronic kidney disease stage 2-3a in the context of diabetes. Monitor renal function every 3 months. Choose glucose-lowering agents with renal safety in mind and review ACEi/ARB therapy."
+  },
+  {
+    "id": "PT-260528-3147_e5d2a7e4d7c4fd1d",
+    "patient_name": "Sanjay Kulkarni",
+    "patient_id": "PT-260528-3147",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260528-3147, Patient name: Sanjay Kulkarni, Test Name: Urine Albumin-to-Creatinine Ratio (UACR), Date of Test: 2026-02-18, Result: UACR 48 mg/g (microalbuminuria), Normal Range: <30 mg/g, Doctor Comments: Microalbuminuria detected, suggesting early diabetic kidney involvement. Recommend ACE inhibitor or ARB for renal protection and blood pressure control. Repeat UACR in 3 months and continue close monitoring."
+  },
+  {
+    "id": "PT-260712-9005_34ff86992f5b68df",
+    "patient_name": "Vikram Singh",
+    "patient_id": "PT-260712-9005",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260712-9005, Patient name: Vikram Singh, Medication Name: Linagliptin, Date of Prescription: 2026-02-10, Dosage: 5 mg, Frequency: Once daily, Duration: 3 months"
+  },
+  {
+    "id": "PT-260712-9005_4813cb8221487bba",
+    "patient_name": "Vikram Singh",
+    "patient_id": "PT-260712-9005",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260712-9005, Patient name: Vikram Singh, Medication Name: Canagliflozin, Date of Prescription: 2026-02-10, Dosage: 100 mg, Frequency: Once daily, Duration: 3 months"
+  },
+  {
+    "id": "PT-260712-9005_154da87db583eaa4",
+    "patient_name": "Vikram Singh",
+    "patient_id": "PT-260712-9005",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260712-9005, Patient name: Vikram Singh, Medication Name: Pioglitazone, Date of Prescription: 2026-02-10, Dosage: 15 mg, Frequency: Once daily, Duration: 3 months"
+  },
+  {
+    "id": "PT-260712-9005_25e964e211eb07f1",
+    "patient_name": "Vikram Singh",
+    "patient_id": "PT-260712-9005",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260712-9005, Patient name: Vikram Singh, Medication Name: Telmisartan, Date of Prescription: 2026-02-10, Dosage: 40 mg, Frequency: Once daily, Duration: 6 months"
+  },
+  {
+    "id": "PT-260712-9005_e6e85b0a188fb486",
+    "patient_name": "Vikram Singh",
+    "patient_id": "PT-260712-9005",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260712-9005, Patient name: Vikram Singh, Medication Name: Fenofibrate, Date of Prescription: 2026-02-10, Dosage: 145 mg, Frequency: Once nightly, Duration: 3 months"
+  },
+  {
+    "id": "PT-260712-9005_9eb0bc2c7aa233ec",
+    "patient_name": "Vikram Singh",
+    "patient_id": "PT-260712-9005",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260712-9005, Patient name: Vikram Singh, Test Name: Hemoglobin A1c, Date of Test: 2026-02-20, Result: 6.9%, Normal Range: 4.0% - 5.6% (non-diabetic); target for most adults with diabetes <7.0%, Doctor Comments: A1c slightly above target. Continue current regimen and reinforce lifestyle measures. Reassess in 3 months; consider medication adjustment if A1c remains >7.0%."
+  },
+  {
+    "id": "PT-260712-9005_37cdb0c28cee0dbc",
+    "patient_name": "Vikram Singh",
+    "patient_id": "PT-260712-9005",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260712-9005, Patient name: Vikram Singh, Test Name: Fasting Lipid Panel, Date of Test: 2026-02-20, Result: Total cholesterol 192 mg/dL; LDL 108 mg/dL; HDL 38 mg/dL; Triglycerides 210 mg/dL, Normal Range: LDL <100 mg/dL (optimal), HDL >40 mg/dL (men), Triglycerides <150 mg/dL, Doctor Comments: Elevated triglycerides and borderline LDL. Fenofibrate initiated to address hypertriglyceridemia. Recommend dietary modification, weight loss, and recheck lipid panel in 8-12 weeks."
+  },
+  {
+    "id": "PT-260712-9005_4697a4884286c99c",
+    "patient_name": "Vikram Singh",
+    "patient_id": "PT-260712-9005",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260712-9005, Patient name: Vikram Singh, Test Name: Basic Metabolic Panel (Creatinine/eGFR), Date of Test: 2026-02-20, Result: Serum creatinine 0.92 mg/dL; eGFR 96 mL/min/1.73m2, Normal Range: Serum creatinine 0.6-1.2 mg/dL; eGFR >90 mL/min/1.73m2, Doctor Comments: Renal function within normal limits. Canagliflozin can be continued; monitor renal function and electrolytes in 3 months or sooner if symptoms arise."
+  },
+  {
+    "id": "PT-260712-9005_ea95c38aa197b404",
+    "patient_name": "Vikram Singh",
+    "patient_id": "PT-260712-9005",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260712-9005, Patient name: Vikram Singh, Test Name: Urine Albumin-to-Creatinine Ratio (UACR), Date of Test: 2026-02-20, Result: UACR 18 mg/g, Normal Range: <30 mg/g (normal to mildly increased), Doctor Comments: No microalbuminuria detected. Continue ARB therapy (telmisartan) for renal protection and repeat UACR annually."
+  },
+  {
+    "id": "PT-260902-7740_fa3b4bcc38ea2486",
+    "patient_name": "Asha Rao",
+    "patient_id": "PT-260902-7740",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260902-7740, Patient name: Asha Rao, Medication Name: Metformin XR, Date of Prescription: 2026-02-20, Dosage: 1000 mg, Frequency: Twice daily (with breakfast and dinner), Duration: 90 days"
+  },
+  {
+    "id": "PT-260902-7740_add8f720c9019078",
+    "patient_name": "Asha Rao",
+    "patient_id": "PT-260902-7740",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260902-7740, Patient name: Asha Rao, Medication Name: Dulaglutide, Date of Prescription: 2026-02-20, Dosage: 1.5 mg, Frequency: Once weekly (subcutaneous), Duration: 12 weeks"
+  },
+  {
+    "id": "PT-260902-7740_ef0e054f32146ab1",
+    "patient_name": "Asha Rao",
+    "patient_id": "PT-260902-7740",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-260902-7740, Patient name: Asha Rao, Medication Name: Amlodipine, Date of Prescription: 2026-02-20, Dosage: 5 mg, Frequency: Once daily (night), Duration: 90 days"
+  },
+  {
+    "id": "PT-260902-7740_0ec825a216e9db61",
+    "patient_name": "Asha Rao",
+    "patient_id": "PT-260902-7740",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260902-7740, Patient name: Asha Rao, Test Name: HbA1c, Date of Test: 2026-02-18, Result: 7.2%, Normal Range: 4.0-5.6% (non-diabetic); recommended target for many adults with diabetes: <7.0%, Doctor Comments: Above individualized target. Intensify glycemic therapy \u2014 continue dulaglutide and optimize metformin dose/timing; reinforce diet and exercise. Repeat HbA1c in 3 months."
+  },
+  {
+    "id": "PT-260902-7740_2d88b5b918c58568",
+    "patient_name": "Asha Rao",
+    "patient_id": "PT-260902-7740",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260902-7740, Patient name: Asha Rao, Test Name: Lipid Panel, Date of Test: 2026-02-18, Result: Total cholesterol 205 mg/dL; LDL 135 mg/dL; HDL 47 mg/dL; Triglycerides 160 mg/dL, Normal Range: LDL <100 mg/dL desirable; TG <150 mg/dL, Doctor Comments: LDL moderately elevated \u2014 discuss initiating or intensifying statin therapy based on overall CV risk. Advise dietary modification, increase physical activity; recheck fasting lipid panel in 6-8 weeks after any statin start/adjustment."
+  },
+  {
+    "id": "PT-260902-7740_25623d63d276d46d",
+    "patient_name": "Asha Rao",
+    "patient_id": "PT-260902-7740",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-260902-7740, Patient name: Asha Rao, Test Name: Renal Function & Urine ACR, Date of Test: 2026-02-18, Result: Serum creatinine 0.92 mg/dL; eGFR 88 mL/min/1.73m2; Urine ACR 28 mg/g, Normal Range: eGFR >60 mL/min/1.73m2 considered preserved; Urine ACR <30 mg/g normal, Doctor Comments: Renal function preserved; urine ACR borderline (within high-normal range). Continue SGLT2/GLP-1 strategies as indicated for cardiorenal protection; monitor ACR and eGFR in 3 months."
+  },
+  {
+    "id": "PT-261115-5582_479025c906df2a1f",
+    "patient_name": "Ishaan Verma",
+    "patient_id": "PT-261115-5582",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261115-5582, Patient name: Ishaan Verma, Medication Name: Metformin XR, Date of Prescription: 2026-02-15, Dosage: 1000 mg, Frequency: Twice daily (morning and evening), Duration: Continuous (chronic therapy), review in 3 months"
+  },
+  {
+    "id": "PT-261115-5582_8bbc493797f6fb96",
+    "patient_name": "Ishaan Verma",
+    "patient_id": "PT-261115-5582",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261115-5582, Patient name: Ishaan Verma, Medication Name: Gliclazide MR, Date of Prescription: 2026-02-15, Dosage: 60 mg, Frequency: Once daily (morning), Duration: 30 days, reassess glucose and hypoglycemia risk"
+  },
+  {
+    "id": "PT-261115-5582_602c372a8d514495",
+    "patient_name": "Ishaan Verma",
+    "patient_id": "PT-261115-5582",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261115-5582, Patient name: Ishaan Verma, Medication Name: Empagliflozin, Date of Prescription: 2026-02-15, Dosage: 10 mg, Frequency: Once daily (morning), Duration: 3 months, then review renal function and glycemic response"
+  },
+  {
+    "id": "PT-261115-5582_11b35df36d2696f1",
+    "patient_name": "Ishaan Verma",
+    "patient_id": "PT-261115-5582",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261115-5582, Patient name: Ishaan Verma, Medication Name: Telmisartan, Date of Prescription: 2026-02-15, Dosage: 40 mg, Frequency: Once daily (evening), Duration: Continuous, target BP review in 4-6 weeks"
+  },
+  {
+    "id": "PT-261115-5582_1be8bc0ddb217317",
+    "patient_name": "Ishaan Verma",
+    "patient_id": "PT-261115-5582",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261115-5582, Patient name: Ishaan Verma, Medication Name: Rosuvastatin, Date of Prescription: 2026-02-15, Dosage: 20 mg, Frequency: Once nightly, Duration: 6 weeks, lipid panel recheck thereafter"
+  },
+  {
+    "id": "PT-261115-5582_68ac8787dcdd521d",
+    "patient_name": "Ishaan Verma",
+    "patient_id": "PT-261115-5582",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-261115-5582, Patient name: Ishaan Verma, Test Name: HbA1c, Date of Test: 2026-02-12, Result: 7.6%, Normal Range: 4.0 - 5.6%, Doctor Comments: Above target for this patient. Intensify glycemic control: consider metformin uptitration if tolerated, continue empagliflozin and monitor for efficacy. Reinforce diet and exercise. Repeat HbA1c in 3 months."
+  },
+  {
+    "id": "PT-261115-5582_9e1df49118b2547f",
+    "patient_name": "Ishaan Verma",
+    "patient_id": "PT-261115-5582",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-261115-5582, Patient name: Ishaan Verma, Test Name: Lipid Panel, Date of Test: 2026-02-12, Result: Total cholesterol 232 mg/dL; LDL 138 mg/dL; HDL 42 mg/dL; Triglycerides 180 mg/dL, Normal Range: LDL <100 mg/dL; TG <150 mg/dL; HDL >40 mg/dL (male), Doctor Comments: Atherogenic dyslipidemia present. Continue rosuvastatin 20 mg nightly, reinforce dietary measures and physical activity. Recheck lipid profile in 6-8 weeks to assess response."
+  },
+  {
+    "id": "PT-261115-5582_bbfe833c4cfaabb5",
+    "patient_name": "Ishaan Verma",
+    "patient_id": "PT-261115-5582",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-261115-5582, Patient name: Ishaan Verma, Test Name: Renal Function (Serum Creatinine / eGFR), Date of Test: 2026-02-12, Result: Creatinine 1.08 mg/dL; eGFR 72 mL/min/1.73m2, Normal Range: Creatinine 0.6 - 1.2 mg/dL; eGFR >90 mL/min/1.73m2, Doctor Comments: Mildly reduced eGFR but stable. Empagliflozin may be continued with periodic monitoring. Monitor renal function in 3 months or sooner if symptoms arise."
+  },
+  {
+    "id": "PT-261115-5582_f252c2d4fbc455c1",
+    "patient_name": "Ishaan Verma",
+    "patient_id": "PT-261115-5582",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-261115-5582, Patient name: Ishaan Verma, Test Name: Urine Albumin-to-Creatinine Ratio (UACR), Date of Test: 2026-02-12, Result: UACR 28 mg/g (borderline microalbuminuria), Normal Range: <30 mg/g, Doctor Comments: Borderline albuminuria detected. Optimize BP (telmisartan) and glycemic control. If persistent or rising on repeat testing, consider ACEi/ARB dose adjustment and closer nephrology follow-up. Repeat UACR in 3 months."
+  },
+  {
+    "id": "PT-261202-1084_1b4340c6f639e926",
+    "patient_name": "Kavita Rao",
+    "patient_id": "PT-261202-1084",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261202-1084, Patient name: Kavita Rao, Medication Name: Insulin glargine (U-100), Date of Prescription: 2026-01-15, Dosage: 10 units (10 U), Frequency: Once nightly (bedtime), subcutaneous, Duration: Ongoing; titrate as needed"
+  },
+  {
+    "id": "PT-261202-1084_fc95d23383043d5a",
+    "patient_name": "Kavita Rao",
+    "patient_id": "PT-261202-1084",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261202-1084, Patient name: Kavita Rao, Medication Name: Metformin SR, Date of Prescription: 2026-01-15, Dosage: 850 mg, Frequency: Twice daily with meals, Duration: 3 months then review"
+  },
+  {
+    "id": "PT-261202-1084_33c4490b4fa2f152",
+    "patient_name": "Kavita Rao",
+    "patient_id": "PT-261202-1084",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261202-1084, Patient name: Kavita Rao, Medication Name: Semaglutide (injectable), Date of Prescription: 2026-01-15, Dosage: 0.25 mg, Frequency: Once weekly, subcutaneous, Duration: Start 0.25 mg weekly; escalate per protocol after 4 weeks"
+  },
+  {
+    "id": "PT-261202-1084_b325c8a75ebe75d3",
+    "patient_name": "Kavita Rao",
+    "patient_id": "PT-261202-1084",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261202-1084, Patient name: Kavita Rao, Medication Name: Amlodipine, Date of Prescription: 2026-01-15, Dosage: 5 mg, Frequency: Once daily, Duration: Ongoing"
+  },
+  {
+    "id": "PT-261202-1084_efd9ebaee612e999",
+    "patient_name": "Kavita Rao",
+    "patient_id": "PT-261202-1084",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-261202-1084, Patient name: Kavita Rao, Test Name: HbA1c, Date of Test: 2026-01-14, Result: 8.0%, Normal Range: 4.0 - 5.6%, Doctor Comments: Above target. Intensify glycaemic control: titrate semaglutide per protocol and adjust basal insulin as needed. Reinforce diet, exercise, and diabetes education. Repeat HbA1c in 3 months."
+  },
+  {
+    "id": "PT-261202-1084_a80387283dac4b2e",
+    "patient_name": "Kavita Rao",
+    "patient_id": "PT-261202-1084",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-261202-1084, Patient name: Kavita Rao, Test Name: Lipid Panel, Date of Test: 2026-01-14, Result: LDL 140 mg/dL; HDL 38 mg/dL; Triglycerides 210 mg/dL, Normal Range: LDL <100 mg/dL; HDL >40 mg/dL; Triglycerides <150 mg/dL, Doctor Comments: Atherogenic lipid profile. Recommend initiating high-intensity statin therapy (e.g., atorvastatin 40 mg nightly) unless contraindicated. Counsel on lifestyle changes and recheck lipids in 8-12 weeks after therapy starts."
+  },
+  {
+    "id": "PT-261202-1084_1789307468ae02e8",
+    "patient_name": "Kavita Rao",
+    "patient_id": "PT-261202-1084",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-261202-1084, Patient name: Kavita Rao, Test Name: Renal Function & Albuminuria, Date of Test: 2026-01-14, Result: Serum creatinine 1.10 mg/dL; eGFR 68 mL/min/1.73m2; UACR 45 mg/g (microalbuminuria), Normal Range: Serum creatinine 0.6 - 1.2 mg/dL; eGFR >90 mL/min/1.73m2; UACR <30 mg/g, Doctor Comments: Mildly reduced eGFR with microalbuminuria. Optimize blood pressure and consider ACE inhibitor or ARB if not contraindicated. Repeat renal panel and UACR in 3 months; consider nephrology referral if persistent or progressive."
+  },
+  {
+    "id": "PT-261215-1023_f6e46b9f5c970161",
+    "patient_name": "Leena Kapoor",
+    "patient_id": "PT-261215-1023",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261215-1023, Patient name: Leena Kapoor, Medication Name: Metformin XR, Date of Prescription: 2026-02-10, Dosage: 1000 mg, Frequency: 2x daily (with meals), Duration: 3 months"
+  },
+  {
+    "id": "PT-261215-1023_c023cffe23c1366f",
+    "patient_name": "Leena Kapoor",
+    "patient_id": "PT-261215-1023",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261215-1023, Patient name: Leena Kapoor, Medication Name: Semaglutide (subcutaneous), Date of Prescription: 2026-02-10, Dosage: 0.5 mg, Frequency: weekly, Duration: 12 weeks"
+  },
+  {
+    "id": "PT-261215-1023_06c81dfaa6e848d1",
+    "patient_name": "Leena Kapoor",
+    "patient_id": "PT-261215-1023",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261215-1023, Patient name: Leena Kapoor, Medication Name: Telmisartan, Date of Prescription: 2026-02-10, Dosage: 40 mg, Frequency: 1x daily, Duration: 3 months"
+  },
+  {
+    "id": "PT-261215-1023_3dcb8d6d990106e6",
+    "patient_name": "Leena Kapoor",
+    "patient_id": "PT-261215-1023",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261215-1023, Patient name: Leena Kapoor, Medication Name: Fenofibrate, Date of Prescription: 2026-02-10, Dosage: 145 mg, Frequency: 1x nightly, Duration: 3 months"
+  },
+  {
+    "id": "PT-261215-1023_5d06221dcbfa2215",
+    "patient_name": "Leena Kapoor",
+    "patient_id": "PT-261215-1023",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-261215-1023, Patient name: Leena Kapoor, Test Name: HbA1c, Date of Test: 2026-02-11, Result: 7.5%, Normal Range: 4.0-5.6%, Doctor Comments: Above target. Recommend intensifying glycaemic control: consider uptitration of GLP-1 RA after reviewing tolerability and adherence; reinforce diet and exercise. Repeat HbA1c in 3 months."
+  },
+  {
+    "id": "PT-261215-1023_b70c2d68e2a2b0ae",
+    "patient_name": "Leena Kapoor",
+    "patient_id": "PT-261215-1023",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-261215-1023, Patient name: Leena Kapoor, Test Name: Lipid Panel, Date of Test: 2026-02-11, Result: LDL 135 mg/dL; HDL 42 mg/dL; TG 210 mg/dL, Normal Range: LDL <100 mg/dL; HDL >50 mg/dL (female); TG <150 mg/dL, Doctor Comments: Atherogenic lipid profile with elevated LDL and triglycerides. Consider initiating a moderate- to high-intensity statin and intensify lifestyle interventions (dietary fat/sugar reduction, weight management). Reassess lipid panel in 6-8 weeks after therapy started."
+  },
+  {
+    "id": "PT-261215-1023_32691952a0f0f64e",
+    "patient_name": "Leena Kapoor",
+    "patient_id": "PT-261215-1023",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-261215-1023, Patient name: Leena Kapoor, Test Name: Renal Function (Creatinine/eGFR), Date of Test: 2026-02-11, Result: Creatinine 1.12 mg/dL; eGFR 70 mL/min/1.73m2, Normal Range: Creatinine 0.6-1.2 mg/dL; eGFR >90 mL/min/1.73m2, Doctor Comments: Mildly reduced eGFR. Continue current renoprotective measures (BP control with ARB); monitor renal function and electrolytes every 3 months or sooner if symptoms change. Adjust medication doses if eGFR declines."
+  },
+  {
+    "id": "PT-261215-1023_9d6ccf78518e08ec",
+    "patient_name": "Leena Kapoor",
+    "patient_id": "PT-261215-1023",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-261215-1023, Patient name: Leena Kapoor, Test Name: Urine Albumin-to-Creatinine Ratio (UACR), Date of Test: 2026-02-11, Result: UACR 36 mg/g, Normal Range: <30 mg/g, Doctor Comments: Microalbuminuria detected. Optimize blood pressure control and ensure adequate RAAS blockade (telmisartan dose review). Counsel on glycaemic control. Repeat UACR in 8-12 weeks to confirm persistence."
+  },
+  {
+    "id": "PT-261230-5501_10a624c726abf3b1",
+    "patient_name": "Rohit Malhotra",
+    "patient_id": "PT-261230-5501",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261230-5501, Patient name: Rohit Malhotra, Medication Name: Insulin isophane (NPH), Date of Prescription: 2026-01-15, Dosage: 20 units, Frequency: Once nightly, Duration: 60 days"
+  },
+  {
+    "id": "PT-261230-5501_0865bea77ea3713d",
+    "patient_name": "Rohit Malhotra",
+    "patient_id": "PT-261230-5501",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261230-5501, Patient name: Rohit Malhotra, Medication Name: Metformin SR, Date of Prescription: 2026-01-15, Dosage: 750 mg, Frequency: Twice daily, Duration: 90 days"
+  },
+  {
+    "id": "PT-261230-5501_f83cf5ff59a88bc4",
+    "patient_name": "Rohit Malhotra",
+    "patient_id": "PT-261230-5501",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261230-5501, Patient name: Rohit Malhotra, Medication Name: Bisoprolol, Date of Prescription: 2026-01-15, Dosage: 5 mg, Frequency: Once daily, Duration: 90 days"
+  },
+  {
+    "id": "PT-261230-5501_c521681bb8acd319",
+    "patient_name": "Rohit Malhotra",
+    "patient_id": "PT-261230-5501",
+    "doc_type": "prescription",
+    "content": "Patient id: PT-261230-5501, Patient name: Rohit Malhotra, Medication Name: Ezetimibe, Date of Prescription: 2026-01-15, Dosage: 10 mg, Frequency: Once nightly, Duration: 90 days"
+  },
+  {
+    "id": "PT-261230-5501_fa33c3e1a0158708",
+    "patient_name": "Rohit Malhotra",
+    "patient_id": "PT-261230-5501",
+    "doc_type": "lab_report",
+    "content": "Patient id: PT-261230-5501, Patient name: Rohit Malhotra, Test Name: HbA1c, Date of Test: 2026-01-10, Result: 8.4%, Normal Range: 4.0-5.6%, Doctor Comments: Above target. Recommend intensifying glycemic regimen: optimize basal insulin dosing, reinforce diet/exercise, consider diabetes education. Repeat HbA1c in 3 months after adjustments."
+  }
+]
