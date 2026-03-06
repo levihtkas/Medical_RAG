@@ -33,6 +33,6 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
         run: |
-          python evaluate.py
+          python evaluate.py 
 
       
