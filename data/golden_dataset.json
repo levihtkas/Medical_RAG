@@ -7,21 +7,46 @@
   {
     "question": "What were the doctor's comments regarding Anika Patel's Fasting Lipid Profile on 2026-02-25?",
     "context": "Patient id: PT-260228-8391, Patient name: Anika Patel, Test Name: Fasting Lipid Profile, Date of Test: 2026-02-25, Result: Total cholesterol 248 mg/dL; LDL 142 mg/dL; HDL 38 mg/dL; Triglycerides 190 mg/dL, Normal Range: Total <200 mg/dL; LDL <100 mg/dL; HDL >40 mg/dL; Triglycerides <150 mg/dL, Doctor Comments: Atherogenic lipid profile. Initiated atorvastatin 20 mg nightly. Counsel on diet, weight reduction, and exercise. Repeat fasting lipid panel in 6 weeks to assess response and adherence.",
-    "ground_truth": "The doctor noted an atherogenic lipid profile and initiated atorvastatin 20 mg nightly. They counseled on diet, weight reduction, and exercise, and recommended repeating the fasting lipid panel in 6 weeks."
-  },
-  {
-    "question": "List all the medications prescribed to Siddharth Bose on 2026-02-15.",
-    "context": "Patient id: PT-270915-4301, Patient name: Siddharth Bose, Medication Name: Metformin XR, Date of Prescription: 2026-02-15, Dosage: 1000 mg, Frequency: twice daily, Duration: ongoing \n Patient id: PT-270915-4301, Patient name: Siddharth Bose, Medication Name: Tirzepatide, Date of Prescription: 2026-02-15, Dosage: 5 mg, Frequency: once weekly, Duration: 12 weeks (review and up-titrate as needed) \n Patient id: PT-270915-4301, Patient name: Siddharth Bose, Medication Name: Telmisartan, Date of Prescription: 2026-02-15, Dosage: 40 mg, Frequency: once daily, Duration: ongoing \n Patient id: PT-270915-4301, Patient name: Siddharth Bose, Medication Name: Atorvastatin, Date of Prescription: 2026-02-15, Dosage: 20 mg, Frequency: once nightly, Duration: ongoing",
-    "ground_truth": "On 2026-02-15, Siddharth Bose was prescribed Metformin XR, Tirzepatide, Telmisartan, and Atorvastatin."
+    "ground_truth": "The doctor noted an atherogenic lipid profile and initiated atorvastatin 20 mg nightly. They counseled on diet, weight reduction, and exercise, and recommended repeating the fasting lipid panel in 6 weeks to assess response and adherence."
   },
   {
     "question": "Does Rahul Mehra have microalbuminuria, and if so, what is the exact UACR result?",
     "context": "Patient id: PT-260301-9001, Patient name: Rahul Mehra, Test Name: Urine Albumin-to-Creatinine Ratio (UACR), Date of Test: 2026-02-14, Result: UACR 45 mg/g (microalbuminuria), Normal Range: <30 mg/g, Doctor Comments: Microalbuminuria detected, consistent with early diabetic nephropathy. ACE inhibitor (ramipril) initiation appropriate; optimize blood pressure and glycaemic control. Repeat UACR in 3 months to assess response.",
-    "ground_truth": "Yes, Rahul Mehra has microalbuminuria detected. His exact UACR result is 45 mg/g."
+    "ground_truth": "Yes, Rahul Mehra has microalbuminuria. His exact UACR result is 45 mg/g."
   },
   {
-    "question": "What was the HbA1c result for Mitali Deshmukh on 2026-02-14, and what was the doctor's primary recommendation regarding lifestyle?",
-    "context": "Patient id: PT-271015-3342, Patient name: Mitali Deshmukh, Test Name: HbA1c, Date of Test: 2026-02-14, Result: 7.6%, Normal Range: < 5.7% (non-diabetic); Target for many adults with diabetes: 6.5\u20137.0% (individualize), Doctor Comments: Above target. Intensify lifestyle measures and optimize antihyperglycemic therapy. Consider dose titration of metformin if tolerated and reinforce adherence. Repeat HbA1c in 3 months after medication adjustments.",
-    "ground_truth": "The HbA1c result was 7.6%. The doctor's primary recommendation was to intensify lifestyle measures and optimize antihyperglycemic therapy."
+    "question": "What medications were prescribed to Meera Iyer on 2026-02-15?",
+    "context": "Patient id: PT-260302-9147, Patient name: Meera Iyer, Medication Name: Sitagliptin, Date of Prescription: 2026-02-15, Dosage: 100 mg, Frequency: Once daily (morning), Duration: Ongoing. Patient id: PT-260302-9147, Patient name: Meera Iyer, Medication Name: Amlodipine, Date of Prescription: 2026-02-15, Dosage: 5 mg, Frequency: Once daily, Duration: 6 months (review at next visit). Patient id: PT-260302-9147, Patient name: Meera Iyer, Medication Name: Pravastatin, Date of Prescription: 2026-02-15, Dosage: 40 mg, Frequency: Once nightly, Duration: Ongoing (reassess lipids in 8-12 weeks). Patient id: PT-260302-9147, Patient name: Meera Iyer, Medication Name: Aspirin (low-dose), Date of Prescription: 2026-02-15, Dosage: 75 mg, Frequency: Once daily, Duration: Ongoing (cardiovascular risk prevention).",
+    "ground_truth": "On 2026-02-15, Meera Iyer was prescribed Sitagliptin, Amlodipine, Pravastatin, and Aspirin (low-dose)."
+  },
+  {
+    "question": "What was Naina Desai's HbA1c result on 2026-02-18, and what treatment escalation did the doctor suggest?",
+    "context": "Patient id: PT-260302-4721, Patient name: Naina Desai, Test Name: Hemoglobin A1c, Date of Test: 2026-02-18, Result: 7.8%, Normal Range: 4.0 - 5.6%, Doctor Comments: Above target (goal <7% for most). Intensify glycemic measures: reinforce adherence to Metformin and consider escalation to GLP-1 RA if weight and cardiovascular risk considerations support. Repeat A1c in 3 months after treatment adjustments.",
+    "ground_truth": "Naina Desai's HbA1c result was 7.8%. The doctor suggested intensifying glycemic measures, reinforcing adherence to Metformin, and considering escalation to a GLP-1 RA if appropriate."
+  },
+  {
+    "question": "What renal findings were reported for Sanjay Kulkarni on 2026-02-18?",
+    "context": "Patient id: PT-260528-3147, Patient name: Sanjay Kulkarni, Test Name: Serum Creatinine / eGFR, Date of Test: 2026-02-18, Result: Creatinine 1.10 mg/dL; eGFR 65 mL/min/1.73m2, Normal Range: Creatinine 0.6 - 1.2 mg/dL; eGFR >90 mL/min/1.73m2, Doctor Comments: Mildly reduced eGFR consistent with chronic kidney disease stage 2-3a in the context of diabetes. Monitor renal function every 3 months. Choose glucose-lowering agents with renal safety in mind and review ACEi/ARB therapy. Patient id: PT-260528-3147, Patient name: Sanjay Kulkarni, Test Name: Urine Albumin-to-Creatinine Ratio (UACR), Date of Test: 2026-02-18, Result: UACR 48 mg/g (microalbuminuria), Normal Range: <30 mg/g, Doctor Comments: Microalbuminuria detected, suggesting early diabetic kidney involvement. Recommend ACE inhibitor or ARB for renal protection and blood pressure control. Repeat UACR in 3 months and continue close monitoring.",
+    "ground_truth": "Sanjay Kulkarni had mildly reduced renal function with a creatinine of 1.10 mg/dL and eGFR of 65 mL/min/1.73m2, consistent with CKD stage 2-3a. He also had microalbuminuria with a UACR of 48 mg/g."
+  },
+  {
+    "question": "What was Vikram Singh's fasting lipid panel result, and why was fenofibrate started?",
+    "context": "Patient id: PT-260712-9005, Patient name: Vikram Singh, Test Name: Fasting Lipid Panel, Date of Test: 2026-02-20, Result: Total cholesterol 192 mg/dL; LDL 108 mg/dL; HDL 38 mg/dL; Triglycerides 210 mg/dL, Normal Range: LDL <100 mg/dL (optimal), HDL >40 mg/dL (men), Triglycerides <150 mg/dL, Doctor Comments: Elevated triglycerides and borderline LDL. Fenofibrate initiated to address hypertriglyceridemia. Recommend dietary modification, weight loss, and recheck lipid panel in 8-12 weeks.",
+    "ground_truth": "Vikram Singh's fasting lipid panel showed total cholesterol 192 mg/dL, LDL 108 mg/dL, HDL 38 mg/dL, and triglycerides 210 mg/dL. Fenofibrate was started to address hypertriglyceridemia."
+  },
+  {
+    "question": "What was Asha Rao's renal function and urine ACR status on 2026-02-18?",
+    "context": "Patient id: PT-260902-7740, Patient name: Asha Rao, Test Name: Renal Function & Urine ACR, Date of Test: 2026-02-18, Result: Serum creatinine 0.92 mg/dL; eGFR 88 mL/min/1.73m2; Urine ACR 28 mg/g, Normal Range: eGFR >60 mL/min/1.73m2 considered preserved; Urine ACR <30 mg/g normal, Doctor Comments: Renal function preserved; urine ACR borderline (within high-normal range). Continue SGLT2/GLP-1 strategies as indicated for cardiorenal protection; monitor ACR and eGFR in 3 months.",
+    "ground_truth": "Asha Rao had preserved renal function with serum creatinine 0.92 mg/dL and eGFR 88 mL/min/1.73m2. Her urine ACR was 28 mg/g, which was borderline but still within the normal range."
+  },
+  {
+    "question": "What medications is Ishaan Verma taking for diabetes management?",
+    "context": "Patient id: PT-261115-5582, Patient name: Ishaan Verma, Medication Name: Metformin XR, Date of Prescription: 2026-02-15, Dosage: 1000 mg, Frequency: Twice daily (morning and evening), Duration: Continuous (chronic therapy), review in 3 months. Patient id: PT-261115-5582, Patient name: Ishaan Verma, Medication Name: Gliclazide MR, Date of Prescription: 2026-02-15, Dosage: 60 mg, Frequency: Once daily (morning), Duration: 30 days, reassess glucose and hypoglycemia risk. Patient id: PT-261115-5582, Patient name: Ishaan Verma, Medication Name: Empagliflozin, Date of Prescription: 2026-02-15, Dosage: 10 mg, Frequency: Once daily (morning), Duration: 3 months, then review renal function and glycemic response.",
+    "ground_truth": "Ishaan Verma is taking Metformin XR, Gliclazide MR, and Empagliflozin for diabetes management."
+  },
+  {
+    "question": "What was recommended for Kavita Rao's dyslipidemia based on her lipid panel?",
+    "context": "Patient id: PT-261202-1084, Patient name: Kavita Rao, Test Name: Lipid Panel, Date of Test: 2026-01-14, Result: LDL 140 mg/dL; HDL 38 mg/dL; Triglycerides 210 mg/dL, Normal Range: LDL <100 mg/dL; HDL >40 mg/dL; Triglycerides <150 mg/dL, Doctor Comments: Atherogenic lipid profile. Recommend initiating high-intensity statin therapy (e.g., atorvastatin 40 mg nightly) unless contraindicated. Counsel on lifestyle changes and recheck lipids in 8-12 weeks after therapy starts.",
+    "ground_truth": "The doctor recommended initiating high-intensity statin therapy, such as atorvastatin 40 mg nightly, along with lifestyle changes and repeating lipids in 8-12 weeks."
   }
 ]
