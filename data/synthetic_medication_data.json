@@ -1,0 +1,856 @@
+[
+  {
+    "patient_id": "PT-260228-8391",
+    "patient_name": "Anika Patel",
+    "age": 47,
+    "medications": [
+      {
+        "medication_name": "Metformin XR",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "500 mg",
+        "frequency": "Twice daily (with breakfast and dinner)",
+        "duration": "6 months"
+      },
+      {
+        "medication_name": "Lisinopril",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "10 mg",
+        "frequency": "Once daily (morning)",
+        "duration": "3 months"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "20 mg",
+        "frequency": "Once nightly",
+        "duration": "Indefinite (reassess in 6 weeks)"
+      }
+    ],
+    "Lab_reports": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "date_of_test": "2026-02-25",
+        "result": "7.4%",
+        "normal_range": "4.0 - 5.6 %",
+        "doctor_comments": "Elevated A1c consistent with suboptimal glycemic control. Recommend intensifying lifestyle measures, increase metformin XR to 1000 mg twice daily if tolerated, provide diabetes education, and reassess A1c in 3 months. Consider endocrinology referral if no improvement."
+      },
+      {
+        "test_name": "Fasting Lipid Profile",
+        "date_of_test": "2026-02-25",
+        "result": "Total cholesterol 248 mg/dL; LDL 142 mg/dL; HDL 38 mg/dL; Triglycerides 190 mg/dL",
+        "normal_range": "Total <200 mg/dL; LDL <100 mg/dL; HDL >40 mg/dL; Triglycerides <150 mg/dL",
+        "doctor_comments": "Atherogenic lipid profile. Initiated atorvastatin 20 mg nightly. Counsel on diet, weight reduction, and exercise. Repeat fasting lipid panel in 6 weeks to assess response and adherence."
+      },
+      {
+        "test_name": "Basic Metabolic Panel (BMP)",
+        "date_of_test": "2026-02-25",
+        "result": "Sodium 139 mmol/L; Potassium 4.2 mmol/L; Creatinine 1.03 mg/dL; eGFR 78 mL/min/1.73m2; Glucose (fasting) 142 mg/dL",
+        "normal_range": "Creatinine 0.6 - 1.2 mg/dL; eGFR >60 mL/min/1.73m2; Sodium 135-145 mmol/L; Potassium 3.5-5.1 mmol/L",
+        "doctor_comments": "Renal function stable (eGFR 78). Safe to uptitrate metformin per plan but monitor creatinine and eGFR in 3 months or sooner if symptoms. Address fasting hyperglycemia with medication adjustment and lifestyle counseling."
+      }
+    ]
+  },
+  {
+    "patient_id": "PT-260301-9427",
+    "patient_name": "Rina Shah",
+    "age": 54,
+    "medications": [
+      {
+        "medication_name": "Empagliflozin",
+        "date_of_prescription": "2026-02-10",
+        "dosage": "10 mg",
+        "frequency": "Once daily",
+        "duration": "90 days (ongoing, 2 refills)"
+      },
+      {
+        "medication_name": "Ramipril",
+        "date_of_prescription": "2026-02-10",
+        "dosage": "5 mg",
+        "frequency": "Once daily",
+        "duration": "60 days (evaluate BP and renal function before next refill)"
+      },
+      {
+        "medication_name": "Rosuvastatin",
+        "date_of_prescription": "2026-02-10",
+        "dosage": "10 mg",
+        "frequency": "Once nightly",
+        "duration": "30 days (follow-up lipid panel in 6\u20138 weeks)"
+      }
+    ],
+    "Lab_reports": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "date_of_test": "2026-02-20",
+        "result": "6.8%",
+        "normal_range": "4.0 - 5.6%",
+        "doctor_comments": "Improvement in glycemic control since therapy adjustment. Continue empagliflozin, reinforce diet and exercise. Repeat A1c in 3 months; consider medication adjustment if not sustained."
+      },
+      {
+        "test_name": "Lipid Panel",
+        "date_of_test": "2026-02-20",
+        "result": "Total Cholesterol 210 mg/dL; LDL 112 mg/dL; HDL 44 mg/dL; Triglycerides 160 mg/dL",
+        "normal_range": "Total <200 mg/dL; LDL <100 mg/dL (goal varies with risk); HDL >40 mg/dL (men) / >50 mg/dL (women); TG <150 mg/dL",
+        "doctor_comments": "LDL moderately elevated despite recent statin start. Optimize lifestyle; consider titrating rosuvastatin dose if tolerated and if risk profile warrants. Recheck lipid panel in 6\u20138 weeks after dose adjustment."
+      },
+      {
+        "test_name": "Serum Creatinine / eGFR",
+        "date_of_test": "2026-02-20",
+        "result": "Creatinine 1.02 mg/dL; eGFR 82 mL/min/1.73m2",
+        "normal_range": "Creatinine 0.6 - 1.2 mg/dL; eGFR >60 mL/min/1.73m2",
+        "doctor_comments": "Renal function stable. Safe to continue empagliflozin with routine monitoring of creatinine/eGFR and electrolytes. Advise prompt review if symptomatic dehydration or intercurrent illness."
+      }
+    ]
+  },
+  {
+    "patient_id": "PT-260301-9001",
+    "patient_name": "Rahul Mehra",
+    "age": 62,
+    "medications": [
+      {
+        "medication_name": "Glimepiride",
+        "date_of_prescription": "2026-02-15",
+        "dosage": "2 mg",
+        "frequency": "Once daily (morning)",
+        "duration": "90 days"
+      },
+      {
+        "medication_name": "Ramipril",
+        "date_of_prescription": "2026-02-15",
+        "dosage": "5 mg",
+        "frequency": "Once daily",
+        "duration": "90 days"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "date_of_prescription": "2026-02-15",
+        "dosage": "40 mg",
+        "frequency": "Once nightly",
+        "duration": "90 days"
+      }
+    ],
+    "Lab_reports": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "date_of_test": "2026-02-14",
+        "result": "8.1%",
+        "normal_range": "4.0 - 5.6%",
+        "doctor_comments": "Elevated A1c indicating suboptimal glycaemic control. Recommend intensifying glycaemic management, reinforce dietary/lifestyle measures, consider adding or switching to an SGLT2 inhibitor or GLP-1 receptor agonist given cardiovascular risk profile. Repeat A1c in 3 months after treatment change."
+      },
+      {
+        "test_name": "Lipid Panel",
+        "date_of_test": "2026-02-14",
+        "result": "Total Cholesterol 235 mg/dL; LDL 148 mg/dL; HDL 38 mg/dL; Triglycerides 210 mg/dL",
+        "normal_range": "LDL <100 mg/dL; HDL >40 mg/dL; Triglycerides <150 mg/dL",
+        "doctor_comments": "Atherogenic lipid profile with high LDL and triglycerides. Increase statin intensity (currently atorvastatin 40 mg nightly prescribed) and emphasize dietary modification and exercise. If LDL remains >70 mg/dL on high-intensity statin, consider adding ezetimibe. Recheck lipid panel in 8-12 weeks."
+      },
+      {
+        "test_name": "Renal Function (Creatinine / eGFR)",
+        "date_of_test": "2026-02-14",
+        "result": "Serum creatinine 1.18 mg/dL; eGFR 64 mL/min/1.73m2",
+        "normal_range": "Serum creatinine 0.6 - 1.2 mg/dL; eGFR >90 mL/min/1.73m2",
+        "doctor_comments": "Mildly reduced eGFR consistent with CKD stage 2-3a. Monitor renal function and electrolytes in 3 months after initiating/adjusting ACE inhibitor. Avoid nephrotoxic agents and adjust drug dosing as needed."
+      },
+      {
+        "test_name": "Urine Albumin-to-Creatinine Ratio (UACR)",
+        "date_of_test": "2026-02-14",
+        "result": "UACR 45 mg/g (microalbuminuria)",
+        "normal_range": "<30 mg/g",
+        "doctor_comments": "Microalbuminuria detected, consistent with early diabetic nephropathy. ACE inhibitor (ramipril) initiation appropriate; optimize blood pressure and glycaemic control. Repeat UACR in 3 months to assess response."
+      }
+    ]
+  },
+  {
+    "patient_id": "PT-260302-9147",
+    "patient_name": "Meera Iyer",
+    "age": 58,
+    "medications": [
+      {
+        "medication_name": "Sitagliptin",
+        "date_of_prescription": "2026-02-15",
+        "dosage": "100 mg",
+        "frequency": "Once daily (morning)",
+        "duration": "Ongoing"
+      },
+      {
+        "medication_name": "Amlodipine",
+        "date_of_prescription": "2026-02-15",
+        "dosage": "5 mg",
+        "frequency": "Once daily",
+        "duration": "6 months (review at next visit)"
+      },
+      {
+        "medication_name": "Pravastatin",
+        "date_of_prescription": "2026-02-15",
+        "dosage": "40 mg",
+        "frequency": "Once nightly",
+        "duration": "Ongoing (reassess lipids in 8\u201312 weeks)"
+      },
+      {
+        "medication_name": "Aspirin (low-dose)",
+        "date_of_prescription": "2026-02-15",
+        "dosage": "75 mg",
+        "frequency": "Once daily",
+        "duration": "Ongoing (cardiovascular risk prevention)"
+      }
+    ],
+    "Lab_reports": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "date_of_test": "2026-02-22",
+        "result": "7.1%",
+        "normal_range": "4.0 - 5.6%",
+        "doctor_comments": "A1c above target (goal <7.0%). Continue current therapy with sitagliptin; reinforce diet/exercise and adherence. Consider intensification (add GLP-1 RA or basal insulin) if repeat A1c in 3 months remains >7.0%."
+      },
+      {
+        "test_name": "Lipid Panel",
+        "date_of_test": "2026-02-22",
+        "result": "Total Cholesterol 210 mg/dL; LDL 128 mg/dL; HDL 44 mg/dL; Triglycerides 160 mg/dL",
+        "normal_range": "Total <200 mg/dL; LDL <100 mg/dL (desirable); HDL >50 mg/dL (female); TG <150 mg/dL",
+        "doctor_comments": "LDL moderately elevated for patient with diabetes. Pravastatin 40 mg started \u2014 reinforce adherence and lifestyle. Recheck lipid panel in 8\u201312 weeks; consider uptitration or switch to higher-potency statin if LDL remains >100 mg/dL."
+      },
+      {
+        "test_name": "Serum Creatinine / eGFR",
+        "date_of_test": "2026-02-22",
+        "result": "Creatinine 0.95 mg/dL; eGFR 86 mL/min/1.73m2",
+        "normal_range": "Creatinine 0.6 - 1.2 mg/dL; eGFR >60 mL/min/1.73m2",
+        "doctor_comments": "Renal function within normal limits. Continue medications that require monitoring; repeat renal panel annually or sooner if clinically indicated."
+      },
+      {
+        "test_name": "Urine Albumin-to-Creatinine Ratio (ACR)",
+        "date_of_test": "2026-02-22",
+        "result": "ACR 48 mg/g (microalbuminuria)",
+        "normal_range": "<30 mg/g",
+        "doctor_comments": "Microalbuminuria detected \u2014 early diabetic kidney involvement. Optimize blood pressure (target <130/80 if tolerated) and glycaemic control. Continue current BP regimen; consider ACEi/ARB if not contraindicated and discuss with patient. Repeat ACR in 3 months to confirm persistence."
+      }
+    ]
+  },
+  {
+    "patient_id": "PT-260302-4721",
+    "patient_name": "Naina Desai",
+    "age": 51,
+    "medications": [
+      {
+        "medication_name": "Metformin",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "850 mg",
+        "frequency": "2x daily",
+        "duration": "6 months"
+      },
+      {
+        "medication_name": "Dapagliflozin",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "10 mg",
+        "frequency": "1x daily",
+        "duration": "6 months"
+      },
+      {
+        "medication_name": "Losartan",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "50 mg",
+        "frequency": "1x daily",
+        "duration": "Indefinite"
+      },
+      {
+        "medication_name": "Ezetimibe",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "10 mg",
+        "frequency": "1x nightly",
+        "duration": "Indefinite"
+      }
+    ],
+    "Lab_reports": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "date_of_test": "2026-02-18",
+        "result": "7.8%",
+        "normal_range": "4.0 - 5.6%",
+        "doctor_comments": "Above target (goal <7% for most). Intensify glycemic measures: reinforce adherence to Metformin and consider escalation to GLP-1 RA if weight and cardiovascular risk considerations support. Repeat A1c in 3 months after treatment adjustments."
+      },
+      {
+        "test_name": "Fasting Lipid Panel",
+        "date_of_test": "2026-02-18",
+        "result": "LDL 142 mg/dL; HDL 46 mg/dL; Triglycerides 175 mg/dL; Total cholesterol 218 mg/dL",
+        "normal_range": "LDL <100 mg/dL; HDL >50 mg/dL (F); Triglycerides <150 mg/dL",
+        "doctor_comments": "Atherogenic profile with elevated LDL and TG. Patient started on ezetimibe in addition to lifestyle advice; consider statin initiation or intensification if not contraindicated. Reassess lipid panel in 6-8 weeks after therapy changes."
+      },
+      {
+        "test_name": "Serum Creatinine & eGFR",
+        "date_of_test": "2026-02-18",
+        "result": "Creatinine 0.98 mg/dL; eGFR 76 mL/min/1.73m2",
+        "normal_range": "Creatinine 0.6 - 1.2 mg/dL; eGFR >=90 mL/min/1.73m2 considered normal",
+        "doctor_comments": "Renal function currently stable and acceptable for SGLT2 inhibitor use; continue monitoring every 3-6 months or sooner if clinically indicated."
+      },
+      {
+        "test_name": "Urine Albumin-Creatinine Ratio (UACR)",
+        "date_of_test": "2026-02-18",
+        "result": "UACR 32 mg/g (microalbuminuria)",
+        "normal_range": "<30 mg/g",
+        "doctor_comments": "Microalbuminuria detected. Optimize blood pressure with ACEi/ARB (Losartan already prescribed) and reinforce glycemic control. Repeat UACR in 3 months and consider nephrology referral if persistent or progressive."
+      }
+    ]
+  },
+  {
+    "patient_id": "PT-260528-3147",
+    "patient_name": "Sanjay Kulkarni",
+    "age": 69,
+    "medications": [
+      {
+        "medication_name": "Insulin degludec (Tresiba)",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "10 units",
+        "frequency": "Once nightly",
+        "duration": "Indefinite (basal insulin)"
+      },
+      {
+        "medication_name": "Metformin XR",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "1000 mg",
+        "frequency": "Twice daily",
+        "duration": "6 months"
+      },
+      {
+        "medication_name": "Amlodipine",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "5 mg",
+        "frequency": "Once daily",
+        "duration": "3 months (review)"
+      },
+      {
+        "medication_name": "Ezetimibe",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "10 mg",
+        "frequency": "Once nightly",
+        "duration": "3 months (reassess LDL)"
+      }
+    ],
+    "Lab_reports": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "date_of_test": "2026-02-18",
+        "result": "8.3%",
+        "normal_range": "4.0 - 5.6%",
+        "doctor_comments": "Elevated A1c indicating suboptimal glycemic control. Initiated basal insulin and optimized metformin. Reinforce diet and self-monitoring of blood glucose. Repeat A1c in 3 months; consider endocrinology referral if minimal improvement."
+      },
+      {
+        "test_name": "Lipid Panel",
+        "date_of_test": "2026-02-18",
+        "result": "LDL 145 mg/dL; HDL 38 mg/dL; Triglycerides 210 mg/dL",
+        "normal_range": "LDL <100 mg/dL; HDL >40 mg/dL; TG <150 mg/dL",
+        "doctor_comments": "Atherogenic dyslipidemia. Started ezetimibe and provided lifestyle counseling. If LDL remains >100 on recheck in 6-8 weeks, consider intensifying lipid-lowering therapy (statin escalation or add-on therapy)."
+      },
+      {
+        "test_name": "Serum Creatinine / eGFR",
+        "date_of_test": "2026-02-18",
+        "result": "Creatinine 1.10 mg/dL; eGFR 65 mL/min/1.73m2",
+        "normal_range": "Creatinine 0.6 - 1.2 mg/dL; eGFR >90 mL/min/1.73m2",
+        "doctor_comments": "Mildly reduced eGFR consistent with chronic kidney disease stage 2-3a in the context of diabetes. Monitor renal function every 3 months. Choose glucose-lowering agents with renal safety in mind and review ACEi/ARB therapy."
+      },
+      {
+        "test_name": "Urine Albumin-to-Creatinine Ratio (UACR)",
+        "date_of_test": "2026-02-18",
+        "result": "UACR 48 mg/g (microalbuminuria)",
+        "normal_range": "<30 mg/g",
+        "doctor_comments": "Microalbuminuria detected, suggesting early diabetic kidney involvement. Recommend ACE inhibitor or ARB for renal protection and blood pressure control. Repeat UACR in 3 months and continue close monitoring."
+      }
+    ]
+  },
+  {
+    "patient_id": "PT-260712-9005",
+    "patient_name": "Vikram Singh",
+    "age": 43,
+    "medications": [
+      {
+        "medication_name": "Linagliptin",
+        "date_of_prescription": "2026-02-10",
+        "dosage": "5 mg",
+        "frequency": "Once daily",
+        "duration": "3 months"
+      },
+      {
+        "medication_name": "Canagliflozin",
+        "date_of_prescription": "2026-02-10",
+        "dosage": "100 mg",
+        "frequency": "Once daily",
+        "duration": "3 months"
+      },
+      {
+        "medication_name": "Pioglitazone",
+        "date_of_prescription": "2026-02-10",
+        "dosage": "15 mg",
+        "frequency": "Once daily",
+        "duration": "3 months"
+      },
+      {
+        "medication_name": "Telmisartan",
+        "date_of_prescription": "2026-02-10",
+        "dosage": "40 mg",
+        "frequency": "Once daily",
+        "duration": "6 months"
+      },
+      {
+        "medication_name": "Fenofibrate",
+        "date_of_prescription": "2026-02-10",
+        "dosage": "145 mg",
+        "frequency": "Once nightly",
+        "duration": "3 months"
+      }
+    ],
+    "Lab_reports": [
+      {
+        "test_name": "Hemoglobin A1c",
+        "date_of_test": "2026-02-20",
+        "result": "6.9%",
+        "normal_range": "4.0% - 5.6% (non-diabetic); target for most adults with diabetes <7.0%",
+        "doctor_comments": "A1c slightly above target. Continue current regimen and reinforce lifestyle measures. Reassess in 3 months; consider medication adjustment if A1c remains >7.0%."
+      },
+      {
+        "test_name": "Fasting Lipid Panel",
+        "date_of_test": "2026-02-20",
+        "result": "Total cholesterol 192 mg/dL; LDL 108 mg/dL; HDL 38 mg/dL; Triglycerides 210 mg/dL",
+        "normal_range": "LDL <100 mg/dL (optimal), HDL >40 mg/dL (men), Triglycerides <150 mg/dL",
+        "doctor_comments": "Elevated triglycerides and borderline LDL. Fenofibrate initiated to address hypertriglyceridemia. Recommend dietary modification, weight loss, and recheck lipid panel in 8-12 weeks."
+      },
+      {
+        "test_name": "Basic Metabolic Panel (Creatinine/eGFR)",
+        "date_of_test": "2026-02-20",
+        "result": "Serum creatinine 0.92 mg/dL; eGFR 96 mL/min/1.73m2",
+        "normal_range": "Serum creatinine 0.6-1.2 mg/dL; eGFR >90 mL/min/1.73m2",
+        "doctor_comments": "Renal function within normal limits. Canagliflozin can be continued; monitor renal function and electrolytes in 3 months or sooner if symptoms arise."
+      },
+      {
+        "test_name": "Urine Albumin-to-Creatinine Ratio (UACR)",
+        "date_of_test": "2026-02-20",
+        "result": "UACR 18 mg/g",
+        "normal_range": "<30 mg/g (normal to mildly increased)",
+        "doctor_comments": "No microalbuminuria detected. Continue ARB therapy (telmisartan) for renal protection and repeat UACR annually."
+      }
+    ]
+  },
+  {
+    "patient_id": "PT-260902-7740",
+    "patient_name": "Asha Rao",
+    "age": 56,
+    "medications": [
+      {
+        "medication_name": "Metformin XR",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "1000 mg",
+        "frequency": "Twice daily (with breakfast and dinner)",
+        "duration": "90 days"
+      },
+      {
+        "medication_name": "Dulaglutide",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "1.5 mg",
+        "frequency": "Once weekly (subcutaneous)",
+        "duration": "12 weeks"
+      },
+      {
+        "medication_name": "Amlodipine",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "5 mg",
+        "frequency": "Once daily (night)",
+        "duration": "90 days"
+      }
+    ],
+    "Lab_reports": [
+      {
+        "test_name": "HbA1c",
+        "date_of_test": "2026-02-18",
+        "result": "7.2%",
+        "normal_range": "4.0-5.6% (non-diabetic); recommended target for many adults with diabetes: <7.0%",
+        "doctor_comments": "Above individualized target. Intensify glycemic therapy \u2014 continue dulaglutide and optimize metformin dose/timing; reinforce diet and exercise. Repeat HbA1c in 3 months."
+      },
+      {
+        "test_name": "Lipid Panel",
+        "date_of_test": "2026-02-18",
+        "result": "Total cholesterol 205 mg/dL; LDL 135 mg/dL; HDL 47 mg/dL; Triglycerides 160 mg/dL",
+        "normal_range": "LDL <100 mg/dL desirable; TG <150 mg/dL",
+        "doctor_comments": "LDL moderately elevated \u2014 discuss initiating or intensifying statin therapy based on overall CV risk. Advise dietary modification, increase physical activity; recheck fasting lipid panel in 6-8 weeks after any statin start/adjustment."
+      },
+      {
+        "test_name": "Renal Function & Urine ACR",
+        "date_of_test": "2026-02-18",
+        "result": "Serum creatinine 0.92 mg/dL; eGFR 88 mL/min/1.73m2; Urine ACR 28 mg/g",
+        "normal_range": "eGFR >60 mL/min/1.73m2 considered preserved; Urine ACR <30 mg/g normal",
+        "doctor_comments": "Renal function preserved; urine ACR borderline (within high-normal range). Continue SGLT2/GLP-1 strategies as indicated for cardiorenal protection; monitor ACR and eGFR in 3 months."
+      }
+    ]
+  },
+  {
+    "patient_id": "PT-261115-5582",
+    "patient_name": "Ishaan Verma",
+    "age": 61,
+    "medications": [
+      {
+        "medication_name": "Metformin XR",
+        "date_of_prescription": "2026-02-15",
+        "dosage": "1000 mg",
+        "frequency": "Twice daily (morning and evening)",
+        "duration": "Continuous (chronic therapy), review in 3 months"
+      },
+      {
+        "medication_name": "Gliclazide MR",
+        "date_of_prescription": "2026-02-15",
+        "dosage": "60 mg",
+        "frequency": "Once daily (morning)",
+        "duration": "30 days, reassess glucose and hypoglycemia risk"
+      },
+      {
+        "medication_name": "Empagliflozin",
+        "date_of_prescription": "2026-02-15",
+        "dosage": "10 mg",
+        "frequency": "Once daily (morning)",
+        "duration": "3 months, then review renal function and glycemic response"
+      },
+      {
+        "medication_name": "Telmisartan",
+        "date_of_prescription": "2026-02-15",
+        "dosage": "40 mg",
+        "frequency": "Once daily (evening)",
+        "duration": "Continuous, target BP review in 4-6 weeks"
+      },
+      {
+        "medication_name": "Rosuvastatin",
+        "date_of_prescription": "2026-02-15",
+        "dosage": "20 mg",
+        "frequency": "Once nightly",
+        "duration": "6 weeks, lipid panel recheck thereafter"
+      }
+    ],
+    "Lab_reports": [
+      {
+        "test_name": "HbA1c",
+        "date_of_test": "2026-02-12",
+        "result": "7.6%",
+        "normal_range": "4.0 - 5.6%",
+        "doctor_comments": "Above target for this patient. Intensify glycemic control: consider metformin uptitration if tolerated, continue empagliflozin and monitor for efficacy. Reinforce diet and exercise. Repeat HbA1c in 3 months."
+      },
+      {
+        "test_name": "Lipid Panel",
+        "date_of_test": "2026-02-12",
+        "result": "Total cholesterol 232 mg/dL; LDL 138 mg/dL; HDL 42 mg/dL; Triglycerides 180 mg/dL",
+        "normal_range": "LDL <100 mg/dL; TG <150 mg/dL; HDL >40 mg/dL (male)",
+        "doctor_comments": "Atherogenic dyslipidemia present. Continue rosuvastatin 20 mg nightly, reinforce dietary measures and physical activity. Recheck lipid profile in 6-8 weeks to assess response."
+      },
+      {
+        "test_name": "Renal Function (Serum Creatinine / eGFR)",
+        "date_of_test": "2026-02-12",
+        "result": "Creatinine 1.08 mg/dL; eGFR 72 mL/min/1.73m2",
+        "normal_range": "Creatinine 0.6 - 1.2 mg/dL; eGFR >90 mL/min/1.73m2",
+        "doctor_comments": "Mildly reduced eGFR but stable. Empagliflozin may be continued with periodic monitoring. Monitor renal function in 3 months or sooner if symptoms arise."
+      },
+      {
+        "test_name": "Urine Albumin-to-Creatinine Ratio (UACR)",
+        "date_of_test": "2026-02-12",
+        "result": "UACR 28 mg/g (borderline microalbuminuria)",
+        "normal_range": "<30 mg/g",
+        "doctor_comments": "Borderline albuminuria detected. Optimize BP (telmisartan) and glycemic control. If persistent or rising on repeat testing, consider ACEi/ARB dose adjustment and closer nephrology follow-up. Repeat UACR in 3 months."
+      }
+    ]
+  },
+  {
+    "patient_id": "PT-261202-1084",
+    "patient_name": "Kavita Rao",
+    "age": 65,
+    "medications": [
+      {
+        "medication_name": "Insulin glargine (U-100)",
+        "date_of_prescription": "2026-01-15",
+        "dosage": "10 units (10 U)",
+        "frequency": "Once nightly (bedtime), subcutaneous",
+        "duration": "Ongoing; titrate as needed"
+      },
+      {
+        "medication_name": "Metformin SR",
+        "date_of_prescription": "2026-01-15",
+        "dosage": "850 mg",
+        "frequency": "Twice daily with meals",
+        "duration": "3 months then review"
+      },
+      {
+        "medication_name": "Semaglutide (injectable)",
+        "date_of_prescription": "2026-01-15",
+        "dosage": "0.25 mg",
+        "frequency": "Once weekly, subcutaneous",
+        "duration": "Start 0.25 mg weekly; escalate per protocol after 4 weeks"
+      },
+      {
+        "medication_name": "Amlodipine",
+        "date_of_prescription": "2026-01-15",
+        "dosage": "5 mg",
+        "frequency": "Once daily",
+        "duration": "Ongoing"
+      }
+    ],
+    "Lab_reports": [
+      {
+        "test_name": "HbA1c",
+        "date_of_test": "2026-01-14",
+        "result": "8.0%",
+        "normal_range": "4.0 - 5.6%",
+        "doctor_comments": "Above target. Intensify glycaemic control: titrate semaglutide per protocol and adjust basal insulin as needed. Reinforce diet, exercise, and diabetes education. Repeat HbA1c in 3 months."
+      },
+      {
+        "test_name": "Lipid Panel",
+        "date_of_test": "2026-01-14",
+        "result": "LDL 140 mg/dL; HDL 38 mg/dL; Triglycerides 210 mg/dL",
+        "normal_range": "LDL <100 mg/dL; HDL >40 mg/dL; Triglycerides <150 mg/dL",
+        "doctor_comments": "Atherogenic lipid profile. Recommend initiating high-intensity statin therapy (e.g., atorvastatin 40 mg nightly) unless contraindicated. Counsel on lifestyle changes and recheck lipids in 8-12 weeks after therapy starts."
+      },
+      {
+        "test_name": "Renal Function & Albuminuria",
+        "date_of_test": "2026-01-14",
+        "result": "Serum creatinine 1.10 mg/dL; eGFR 68 mL/min/1.73m2; UACR 45 mg/g (microalbuminuria)",
+        "normal_range": "Serum creatinine 0.6 - 1.2 mg/dL; eGFR >90 mL/min/1.73m2; UACR <30 mg/g",
+        "doctor_comments": "Mildly reduced eGFR with microalbuminuria. Optimize blood pressure and consider ACE inhibitor or ARB if not contraindicated. Repeat renal panel and UACR in 3 months; consider nephrology referral if persistent or progressive."
+      }
+    ]
+  },
+  {
+    "patient_id": "PT-261215-1023",
+    "patient_name": "Leena Kapoor",
+    "age": 59,
+    "medications": [
+      {
+        "medication_name": "Metformin XR",
+        "date_of_prescription": "2026-02-10",
+        "dosage": "1000 mg",
+        "frequency": "2x daily (with meals)",
+        "duration": "3 months"
+      },
+      {
+        "medication_name": "Semaglutide (subcutaneous)",
+        "date_of_prescription": "2026-02-10",
+        "dosage": "0.5 mg",
+        "frequency": "weekly",
+        "duration": "12 weeks"
+      },
+      {
+        "medication_name": "Telmisartan",
+        "date_of_prescription": "2026-02-10",
+        "dosage": "40 mg",
+        "frequency": "1x daily",
+        "duration": "3 months"
+      },
+      {
+        "medication_name": "Fenofibrate",
+        "date_of_prescription": "2026-02-10",
+        "dosage": "145 mg",
+        "frequency": "1x nightly",
+        "duration": "3 months"
+      }
+    ],
+    "Lab_reports": [
+      {
+        "test_name": "HbA1c",
+        "date_of_test": "2026-02-11",
+        "result": "7.5%",
+        "normal_range": "4.0-5.6%",
+        "doctor_comments": "Above target. Recommend intensifying glycaemic control: consider uptitration of GLP-1 RA after reviewing tolerability and adherence; reinforce diet and exercise. Repeat HbA1c in 3 months."
+      },
+      {
+        "test_name": "Lipid Panel",
+        "date_of_test": "2026-02-11",
+        "result": "LDL 135 mg/dL; HDL 42 mg/dL; TG 210 mg/dL",
+        "normal_range": "LDL <100 mg/dL; HDL >50 mg/dL (female); TG <150 mg/dL",
+        "doctor_comments": "Atherogenic lipid profile with elevated LDL and triglycerides. Consider initiating a moderate- to high-intensity statin and intensify lifestyle interventions (dietary fat/sugar reduction, weight management). Reassess lipid panel in 6-8 weeks after therapy started."
+      },
+      {
+        "test_name": "Renal Function (Creatinine/eGFR)",
+        "date_of_test": "2026-02-11",
+        "result": "Creatinine 1.12 mg/dL; eGFR 70 mL/min/1.73m2",
+        "normal_range": "Creatinine 0.6-1.2 mg/dL; eGFR >90 mL/min/1.73m2",
+        "doctor_comments": "Mildly reduced eGFR. Continue current renoprotective measures (BP control with ARB); monitor renal function and electrolytes every 3 months or sooner if symptoms change. Adjust medication doses if eGFR declines."
+      },
+      {
+        "test_name": "Urine Albumin-to-Creatinine Ratio (UACR)",
+        "date_of_test": "2026-02-11",
+        "result": "UACR 36 mg/g",
+        "normal_range": "<30 mg/g",
+        "doctor_comments": "Microalbuminuria detected. Optimize blood pressure control and ensure adequate RAAS blockade (telmisartan dose review). Counsel on glycaemic control. Repeat UACR in 8-12 weeks to confirm persistence."
+      }
+    ]
+  },
+  {
+    "patient_id": "PT-261230-5501",
+    "patient_name": "Rohit Malhotra",
+    "age": 67,
+    "medications": [
+      {
+        "medication_name": "Insulin isophane (NPH)",
+        "date_of_prescription": "2026-01-15",
+        "dosage": "20 units",
+        "frequency": "Once nightly",
+        "duration": "60 days"
+      },
+      {
+        "medication_name": "Metformin SR",
+        "date_of_prescription": "2026-01-15",
+        "dosage": "750 mg",
+        "frequency": "Twice daily",
+        "duration": "90 days"
+      },
+      {
+        "medication_name": "Bisoprolol",
+        "date_of_prescription": "2026-01-15",
+        "dosage": "5 mg",
+        "frequency": "Once daily",
+        "duration": "90 days"
+      },
+      {
+        "medication_name": "Ezetimibe",
+        "date_of_prescription": "2026-01-15",
+        "dosage": "10 mg",
+        "frequency": "Once nightly",
+        "duration": "90 days"
+      }
+    ],
+    "Lab_reports": [
+      {
+        "test_name": "HbA1c",
+        "date_of_test": "2026-01-10",
+        "result": "8.4%",
+        "normal_range": "4.0-5.6%",
+        "doctor_comments": "Above target. Recommend intensifying glycemic regimen: optimize basal insulin dosing, reinforce diet/exercise, consider diabetes education. Repeat HbA1c in 3 months after adjustments."
+      },
+      {
+        "test_name": "Lipid Panel",
+        "date_of_test": "2026-01-10",
+        "result": "LDL 156 mg/dL; HDL 38 mg/dL; TG 210 mg/dL",
+        "normal_range": "LDL <100 mg/dL; HDL >40 mg/dL; TG <150 mg/dL",
+        "doctor_comments": "Atherogenic lipid profile. Advise initiation or escalation to high-intensity statin therapy and lifestyle modification. Consider cardiology review if not tolerated. Recheck lipid panel in 6-8 weeks after therapy change."
+      },
+      {
+        "test_name": "Renal Function (Creatinine/eGFR)",
+        "date_of_test": "2026-01-10",
+        "result": "Creatinine 1.32 mg/dL; eGFR 62 mL/min/1.73m2",
+        "normal_range": "Creatinine 0.6-1.2 mg/dL; eGFR >90 mL/min/1.73m2",
+        "doctor_comments": "Mildly reduced eGFR. Avoid nephrotoxic medications, adjust drug dosages as appropriate, and monitor renal function every 3 months or sooner if clinically indicated."
+      },
+      {
+        "test_name": "Urine Albumin-to-Creatinine Ratio (UACR)",
+        "date_of_test": "2026-01-10",
+        "result": "UACR 52 mg/g",
+        "normal_range": "<30 mg/g",
+        "doctor_comments": "Microalbuminuria detected. Recommend optimization of blood pressure control and initiation or uptitration of an ACE inhibitor or ARB if tolerated. Repeat UACR in 3 months to assess response."
+      }
+    ]
+  },
+  {
+    "patient_id": "PT-261228-9812",
+    "patient_name": "Anand Mehta",
+    "age": 57,
+    "medications": [
+      {
+        "medication_name": "Semaglutide (injectable)",
+        "date_of_prescription": "2026-01-10",
+        "dosage": "0.5 mg",
+        "frequency": "Once weekly",
+        "duration": "3 months (review at 3 months)"
+      },
+      {
+        "medication_name": "Empagliflozin",
+        "date_of_prescription": "2025-11-15",
+        "dosage": "10 mg",
+        "frequency": "Once daily",
+        "duration": "Ongoing (review renal function every 3 months)"
+      },
+      {
+        "medication_name": "Losartan",
+        "date_of_prescription": "2025-06-02",
+        "dosage": "50 mg",
+        "frequency": "Once daily",
+        "duration": "Ongoing"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "date_of_prescription": "2026-02-28",
+        "dosage": "20 mg",
+        "frequency": "Once nightly",
+        "duration": "Ongoing (reassess lipids in 8-12 weeks)"
+      }
+    ],
+    "Lab_reports": [
+      {
+        "test_name": "HbA1c",
+        "date_of_test": "2026-02-20",
+        "result": "7.0%",
+        "normal_range": "4.0 - 5.6%",
+        "doctor_comments": "HbA1c above individualized target. Reinforce diet and exercise. Consider uptitration of semaglutide to 1.0 mg weekly if glycaemic control and weight targets are not met; recheck HbA1c in 3 months."
+      },
+      {
+        "test_name": "Lipid Panel",
+        "date_of_test": "2026-02-20",
+        "result": "LDL 132 mg/dL; HDL 47 mg/dL; Triglycerides 180 mg/dL",
+        "normal_range": "LDL <100 mg/dL; HDL >40 mg/dL; Triglycerides <150 mg/dL",
+        "doctor_comments": "Elevated LDL and triglycerides despite atorvastatin 20 mg. Consider increasing atorvastatin to 40 mg or adding ezetimibe based on tolerability and risk discussion. Emphasize dietary modification and physical activity; repeat lipid panel in 8-12 weeks after any change."
+      },
+      {
+        "test_name": "Renal Function & Albuminuria (Creatinine / eGFR / UACR)",
+        "date_of_test": "2026-02-20",
+        "result": "Creatinine 1.04 mg/dL; eGFR 79 mL/min/1.73m2; UACR 22 mg/g",
+        "normal_range": "Creatinine 0.6 - 1.2 mg/dL; eGFR >60 mL/min/1.73m2; UACR <30 mg/g",
+        "doctor_comments": "Renal function currently preserved and albuminuria is below microalbuminuria threshold. Continue empagliflozin with periodic monitoring of eGFR and electrolytes. Recheck renal panel and UACR in 3-6 months or sooner if symptomatic."
+      }
+    ]
+  },
+  {
+    "patient_id": "PT-270228-1129",
+    "patient_name": "Sonal Gupta",
+    "age": 64,
+    "medications": [
+      {
+        "medication_name": "Metformin XR",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "1000 mg",
+        "frequency": "Twice daily (500 mg morning, 500 mg evening)",
+        "duration": "90 days (ongoing)"
+      },
+      {
+        "medication_name": "Pioglitazone",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "15 mg",
+        "frequency": "Once daily",
+        "duration": "90 days (reassess)"
+      },
+      {
+        "medication_name": "Amlodipine",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "5 mg",
+        "frequency": "Once daily",
+        "duration": "Ongoing"
+      },
+      {
+        "medication_name": "Atorvastatin",
+        "date_of_prescription": "2026-02-20",
+        "dosage": "20 mg",
+        "frequency": "Once nightly",
+        "duration": "Ongoing"
+      }
+    ],
+    "Lab_reports": [
+      {
+        "test_name": "HbA1c",
+        "date_of_test": "2026-02-22",
+        "result": "7.3%",
+        "normal_range": "4.0 - 5.6% (non-diabetic); clinical target for many patients <7.0%",
+        "doctor_comments": "HbA1c above individualized target. Consider intensifying glycaemic therapy (add GLP-1 RA or consider basal insulin depending on symptoms and weight). Reinforce diet, physical activity, and adherence. Repeat HbA1c in 3 months after therapy change."
+      },
+      {
+        "test_name": "Lipid Panel",
+        "date_of_test": "2026-02-22",
+        "result": "Total cholesterol 212 mg/dL; LDL 135 mg/dL; HDL 42 mg/dL; Triglycerides 210 mg/dL",
+        "normal_range": "LDL <100 mg/dL (goal may be lower if high CV risk); HDL >50 mg/dL (female); TG <150 mg/dL",
+        "doctor_comments": "Moderate mixed dyslipidemia despite atorvastatin 20 mg. Discuss adherence and lifestyle; consider intensifying statin dose or add ezetimibe if tolerated and if ASCVD risk warrants. Recheck lipids in 6-8 weeks after medication adjustment."
+      },
+      {
+        "test_name": "Renal Function & Urine Albumin",
+        "date_of_test": "2026-02-22",
+        "result": "Serum creatinine 1.04 mg/dL; eGFR 72 mL/min/1.73m2; Urine albumin-to-creatinine ratio (UACR) 36 mg/g",
+        "normal_range": "Serum creatinine 0.6 - 1.2 mg/dL (adult); eGFR >90 mL/min/1.73m2 normal; UACR <30 mg/g normal",
+        "doctor_comments": "Mildly reduced eGFR and microalbuminuria (UACR 36 mg/g). Continue/optimize RAAS blockade and monitor renal function and UACR every 3 months. Avoid nephrotoxins and ensure BP is controlled. Consider SGLT2 inhibitor if not contraindicated for renal and CV benefit."
+      }
+    ]
+  }
+]
