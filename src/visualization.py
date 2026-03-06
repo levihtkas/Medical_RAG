@@ -23,7 +23,7 @@ class Visualization:
 
 
         # Create DataFrame
-        df = pd.DataFrame({
+        df = pd.DataFrame({ 
             "x": embeddings_2d[:, 0],
             "y": embeddings_2d[:, 1],
             "doc_type": self.metadatas,
