@@ -6,7 +6,7 @@ from sentence_transformers import CrossEncoder
 
 
 open_ai_client = OpenAI(api_key=Config.OPENAI_API_KEY)
-ollama_client = OpenAI(api_key="ollama", base_url="http://localhost:11434/v1")
+ollama_client = OpenAI(api_key=Config.OPENAI_API_KEY)
 chroma_client = chromadb.PersistentClient(path=Config.VECTOR_STORE_PATH)
 rerank_model =  CrossEncoder(Config.RERANK_MODEL)
 
