@@ -1,45 +1,35 @@
 name: Rag Pipeline Evaluation
 
 on:
-  workflow_dispatch:
-    inputs:
-      confirm_run:
-        description: "Type RUN to execute the RAG evaluation"
-        required: true
-        default: "NO"
-
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 jobs:
   evaluate:
-    if: ${{ github.event.inputs.confirm_run == 'RUN' }}
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v2
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v2
         with:
-          python-version: "3.9"
-
+          python-version: '3.9'
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
       - name: Ingest Test Data (Vector DB & BM25)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          VECTOR_STORE_PATH: ./data/vector_store
-          EMBEDDING_CACHE_PATH: ./data/embedding_cache.json
-          COLLECTION_NAME: medical_data_collection
         run: |
-          mkdir -p data/vector_store
-          touch data/embedding_cache.json
           python -m src.ingest_db
-
+      # -------------------------
       - name: Run evaluation script
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
         run: |
-          python tests/evaluate.py
+          python -m tests.evaluate

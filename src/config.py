@@ -8,20 +8,15 @@ class Config:
     #API Keys
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
     #RAG System Configurations
-    VECTOR_STORE_PATH = os.getenv("VECTOR_STORE_PATH", "./data/vector_store")
-    collection_name = os.getenv("COLLECTION_NAME", "medical_data_collection")
+    VECTOR_STORE_PATH = "./data/vector_store"
+    collection_name = "medical_data_collection"
     GOLDEN_DATASET_PATH = "./data/golden_dataset.json"
-    EMBEDDING_CACHE_PATH = os.getenv("EMBEDDING_CACHE_PATH", "./data/embedding_cache.json")
 
     #Model Configurations
     EMBEDDING_MODEL = "text-embedding-3-small"
     RERANK_MODEL = 'cross-encoder/ms-marco-MiniLM-L-6-v2'
     LLM_MODEL = "gpt-5-mini"
-    GRADER_MODEL = os.getenv("GRADER_MODEL", "gpt-4o-mini")
-
-    # Cost/quality knobs
-    RETRIEVAL_TOP_K = int(os.getenv("RETRIEVAL_TOP_K", "5"))
-    EVAL_MAX_QUESTIONS = int(os.getenv("EVAL_MAX_QUESTIONS", "5"))
+    GRADER_MODEL = "gpt-4o"
 
     #Evaluation Threasholds
     MIN_ANSWER_RELEVANCY = 0.6
@@ -53,3 +48,4 @@ class Config:
     And strictly, as much as possible, try to avoid extra statements like the conversation starters. Answer precisely to the point. Answer the user's question directly using only the provided context.
     You will be provided with several pieces of context. Some of it may be irrelevant to the specific question. You must identify and use ONLY the parts of the context that directly answer the prompt. Actively ignore the rest. Do not add conversational filler
     """
+
